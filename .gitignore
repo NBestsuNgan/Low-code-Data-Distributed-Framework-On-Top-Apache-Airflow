@@ -4,3 +4,4 @@ PPT/
 spark/
 warehouse/
 *.log
+.DS_store
