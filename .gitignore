@@ -1,0 +1,6 @@
+airflow_venv/
+logs/
+PPT/
+spark/
+warehouse/
+*.log
