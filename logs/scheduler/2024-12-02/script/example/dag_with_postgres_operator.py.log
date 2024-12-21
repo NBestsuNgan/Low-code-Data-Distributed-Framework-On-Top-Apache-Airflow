@@ -1,0 +1,445 @@
+[2024-12-02T14:19:22.454+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:19:22.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:19:22.460+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:19:22.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:19:22.467+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:19:22.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.047 seconds
+[2024-12-02T14:19:53.189+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:19:53.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:19:53.190+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:19:53.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:19:53.192+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:19:53.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.009 seconds
+[2024-12-02T14:20:23.901+0000] {processor.py:186} INFO - Started process (PID=444) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:20:23.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:20:23.902+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:20:23.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:20:23.904+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:20:23.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:20:54.625+0000] {processor.py:186} INFO - Started process (PID=545) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:20:54.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:20:54.627+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:20:54.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:20:54.630+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:20:54.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:21:25.314+0000] {processor.py:186} INFO - Started process (PID=646) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:21:25.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:21:25.315+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:21:25.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:21:25.318+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:21:25.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:21:56.075+0000] {processor.py:186} INFO - Started process (PID=747) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:21:56.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:21:56.077+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:21:56.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:21:56.079+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:21:56.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:22:26.679+0000] {processor.py:186} INFO - Started process (PID=848) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:22:26.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:22:26.681+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:22:26.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:22:26.682+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:22:26.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.011 seconds
+[2024-12-02T14:22:57.376+0000] {processor.py:186} INFO - Started process (PID=949) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:22:57.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:22:57.377+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:22:57.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:22:57.378+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:22:57.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.010 seconds
+[2024-12-02T14:23:28.086+0000] {processor.py:186} INFO - Started process (PID=1050) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:23:28.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:23:28.088+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:23:28.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:23:28.089+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:23:28.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.010 seconds
+[2024-12-02T14:23:59.112+0000] {processor.py:186} INFO - Started process (PID=1151) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:23:59.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:23:59.114+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:23:59.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:23:59.115+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:23:59.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:24:30.367+0000] {processor.py:186} INFO - Started process (PID=1254) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:24:30.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:24:30.368+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:24:30.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:24:30.370+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:24:30.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.093 seconds
+[2024-12-02T14:25:01.344+0000] {processor.py:186} INFO - Started process (PID=1353) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:25:01.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:25:01.347+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:25:01.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:25:01.353+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:25:01.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.020 seconds
+[2024-12-02T14:25:32.093+0000] {processor.py:186} INFO - Started process (PID=1454) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:25:32.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:25:32.096+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:25:32.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:25:32.099+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:25:32.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.017 seconds
+[2024-12-02T14:26:02.827+0000] {processor.py:186} INFO - Started process (PID=1555) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:26:02.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:26:02.829+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:26:02.829+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:26:02.832+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:26:02.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.021 seconds
+[2024-12-02T14:26:33.543+0000] {processor.py:186} INFO - Started process (PID=1656) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:26:33.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:26:33.546+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:26:33.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:26:33.549+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:26:33.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.019 seconds
+[2024-12-02T14:27:04.474+0000] {processor.py:186} INFO - Started process (PID=1757) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:27:04.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:27:04.476+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:27:04.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:27:04.480+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:27:04.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.020 seconds
+[2024-12-02T14:27:35.140+0000] {processor.py:186} INFO - Started process (PID=1858) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:27:35.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:27:35.144+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:27:35.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:27:35.148+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:27:35.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.021 seconds
+[2024-12-02T14:28:05.841+0000] {processor.py:186} INFO - Started process (PID=1959) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:28:05.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:28:05.843+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:28:05.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:28:05.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:28:05.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.021 seconds
+[2024-12-02T14:28:36.596+0000] {processor.py:186} INFO - Started process (PID=2060) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:28:36.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:28:36.599+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:28:36.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:28:36.601+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:28:36.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.018 seconds
+[2024-12-02T14:29:07.402+0000] {processor.py:186} INFO - Started process (PID=2161) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:29:07.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:29:07.404+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:29:07.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:29:07.405+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:29:07.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.015 seconds
+[2024-12-02T14:29:38.144+0000] {processor.py:186} INFO - Started process (PID=2262) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:29:38.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:29:38.146+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:29:38.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:29:38.148+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:29:38.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.014 seconds
+[2024-12-02T14:30:08.900+0000] {processor.py:186} INFO - Started process (PID=2363) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:30:08.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:30:08.903+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:30:08.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:30:08.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:30:08.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.026 seconds
+[2024-12-02T14:30:39.689+0000] {processor.py:186} INFO - Started process (PID=2464) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:30:39.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:30:39.692+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:30:39.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:30:39.696+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:30:39.704+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.019 seconds
+[2024-12-02T14:31:10.426+0000] {processor.py:186} INFO - Started process (PID=2565) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:31:10.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:31:10.428+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:31:10.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:31:10.433+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:31:10.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.022 seconds
+[2024-12-02T14:31:41.144+0000] {processor.py:186} INFO - Started process (PID=2666) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:31:41.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:31:41.147+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:31:41.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:31:41.150+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:31:41.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.022 seconds
+[2024-12-02T14:32:11.899+0000] {processor.py:186} INFO - Started process (PID=2767) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:32:11.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:32:11.902+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:32:11.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:32:11.906+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:32:11.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.020 seconds
+[2024-12-02T14:32:42.577+0000] {processor.py:186} INFO - Started process (PID=2868) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:32:42.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:32:42.580+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:32:42.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:32:42.584+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:32:42.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.019 seconds
+[2024-12-02T14:33:13.317+0000] {processor.py:186} INFO - Started process (PID=2969) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:33:13.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:33:13.320+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:33:13.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:33:13.323+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:33:13.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.020 seconds
+[2024-12-02T14:33:43.715+0000] {processor.py:186} INFO - Started process (PID=3072) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:33:43.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:33:43.720+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:33:43.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:33:43.729+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:33:43.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.035 seconds
+[2024-12-02T14:34:15.178+0000] {processor.py:186} INFO - Started process (PID=3176) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:34:15.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:34:15.184+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:34:15.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:34:15.207+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:34:15.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.108 seconds
+[2024-12-02T14:34:45.951+0000] {processor.py:186} INFO - Started process (PID=3277) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:34:45.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:34:45.954+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:34:45.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:34:45.956+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:34:45.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.015 seconds
+[2024-12-02T14:35:16.749+0000] {processor.py:186} INFO - Started process (PID=3378) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:35:16.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:35:16.752+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:35:16.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:35:16.753+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:35:16.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:35:47.481+0000] {processor.py:186} INFO - Started process (PID=3479) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:35:47.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:35:47.483+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:35:47.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:35:47.486+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:35:47.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:36:18.589+0000] {processor.py:186} INFO - Started process (PID=3580) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:36:18.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:36:18.591+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:36:18.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:36:18.594+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:36:18.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.017 seconds
+[2024-12-02T14:36:49.335+0000] {processor.py:186} INFO - Started process (PID=3680) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:36:49.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:36:49.337+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:36:49.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:36:49.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:36:49.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:37:20.081+0000] {processor.py:186} INFO - Started process (PID=3781) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:37:20.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:37:20.083+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:37:20.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:37:20.085+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:37:20.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.014 seconds
+[2024-12-02T14:37:50.788+0000] {processor.py:186} INFO - Started process (PID=3882) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:37:50.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:37:50.790+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:37:50.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:37:50.791+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:37:50.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:38:21.534+0000] {processor.py:186} INFO - Started process (PID=3982) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:38:21.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:38:21.536+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:38:21.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:38:21.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:38:21.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:38:52.314+0000] {processor.py:186} INFO - Started process (PID=4083) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:38:52.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:38:52.316+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:38:52.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:38:52.318+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:38:52.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:39:23.037+0000] {processor.py:186} INFO - Started process (PID=4186) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:39:23.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:39:23.038+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:39:23.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:39:23.040+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:39:23.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:39:53.857+0000] {processor.py:186} INFO - Started process (PID=4285) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:39:53.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:39:53.858+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:39:53.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:39:53.862+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:39:53.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.014 seconds
+[2024-12-02T14:40:24.554+0000] {processor.py:186} INFO - Started process (PID=4385) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:40:24.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:40:24.557+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:40:24.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:40:24.558+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:40:24.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:40:55.300+0000] {processor.py:186} INFO - Started process (PID=4486) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:40:55.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:40:55.302+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:40:55.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:40:55.305+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:40:55.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.015 seconds
+[2024-12-02T14:41:26.158+0000] {processor.py:186} INFO - Started process (PID=4589) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:41:26.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:41:26.159+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:41:26.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:41:26.161+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:41:26.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.011 seconds
+[2024-12-02T14:41:56.972+0000] {processor.py:186} INFO - Started process (PID=4688) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:41:56.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:41:56.973+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:41:56.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:41:56.977+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:41:56.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:42:27.777+0000] {processor.py:186} INFO - Started process (PID=4789) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:42:27.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:42:27.780+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:42:27.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:42:27.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:42:27.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:42:58.613+0000] {processor.py:186} INFO - Started process (PID=4892) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:42:58.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:42:58.614+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:42:58.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:42:58.615+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:42:58.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.011 seconds
+[2024-12-02T14:43:29.311+0000] {processor.py:186} INFO - Started process (PID=4991) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:43:29.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:43:29.313+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:43:29.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:43:29.315+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:43:29.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.011 seconds
+[2024-12-02T14:43:59.982+0000] {processor.py:186} INFO - Started process (PID=5092) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:43:59.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:43:59.985+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:43:59.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:43:59.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:43:59.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.015 seconds
+[2024-12-02T14:44:30.812+0000] {processor.py:186} INFO - Started process (PID=5195) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:44:30.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:44:30.814+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:44:30.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:44:30.815+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:44:30.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:45:01.482+0000] {processor.py:186} INFO - Started process (PID=5294) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:45:01.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:45:01.485+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:45:01.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:45:01.487+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:45:01.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:45:32.163+0000] {processor.py:186} INFO - Started process (PID=5395) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:45:32.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:45:32.165+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:45:32.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:45:32.168+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:45:32.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:46:02.955+0000] {processor.py:186} INFO - Started process (PID=5497) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:46:02.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:46:02.956+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:46:02.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:46:02.957+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:46:02.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.009 seconds
+[2024-12-02T14:46:33.711+0000] {processor.py:186} INFO - Started process (PID=5596) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:46:33.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:46:33.713+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:46:33.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:46:33.716+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:46:33.722+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.014 seconds
+[2024-12-02T14:47:04.555+0000] {processor.py:186} INFO - Started process (PID=5697) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:47:04.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:47:04.557+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:47:04.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:47:04.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:47:04.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.016 seconds
+[2024-12-02T14:47:35.391+0000] {processor.py:186} INFO - Started process (PID=5798) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:47:35.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:47:35.395+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:47:35.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:47:35.396+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:47:35.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:48:06.153+0000] {processor.py:186} INFO - Started process (PID=5901) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:48:06.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:48:06.154+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:48:06.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:48:06.157+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:48:06.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:48:36.876+0000] {processor.py:186} INFO - Started process (PID=6000) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:48:36.877+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:48:36.877+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:48:36.877+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:48:36.878+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:48:36.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.010 seconds
+[2024-12-02T14:49:07.689+0000] {processor.py:186} INFO - Started process (PID=6101) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:49:07.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:49:07.693+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:49:07.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:49:07.694+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:49:07.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:49:38.577+0000] {processor.py:186} INFO - Started process (PID=6202) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:49:38.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:49:38.579+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:49:38.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:49:38.581+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:49:38.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:50:09.322+0000] {processor.py:186} INFO - Started process (PID=6303) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:50:09.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:50:09.325+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:50:09.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:50:09.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:50:09.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:50:40.081+0000] {processor.py:186} INFO - Started process (PID=6404) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:50:40.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:50:40.083+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:50:40.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:50:40.085+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:50:40.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:51:10.798+0000] {processor.py:186} INFO - Started process (PID=6507) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:51:10.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:51:10.799+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:51:10.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:51:10.800+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:51:10.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.009 seconds
+[2024-12-02T14:51:41.545+0000] {processor.py:186} INFO - Started process (PID=6606) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:51:41.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:51:41.547+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:51:41.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:51:41.549+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:51:41.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:52:12.306+0000] {processor.py:186} INFO - Started process (PID=6709) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:52:12.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:52:12.307+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:52:12.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:52:12.308+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:52:12.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.009 seconds
+[2024-12-02T14:52:43.087+0000] {processor.py:186} INFO - Started process (PID=6808) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:52:43.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:52:43.089+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:52:43.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:52:43.090+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:52:43.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:53:13.925+0000] {processor.py:186} INFO - Started process (PID=6909) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:53:13.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:53:13.926+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:53:13.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:53:13.928+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:53:13.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:53:44.672+0000] {processor.py:186} INFO - Started process (PID=7010) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:53:44.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:53:44.674+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:53:44.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:53:44.676+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:53:44.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:54:15.438+0000] {processor.py:186} INFO - Started process (PID=7111) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:54:15.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:54:15.439+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:54:15.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:54:15.441+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:54:15.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.010 seconds
+[2024-12-02T14:54:46.203+0000] {processor.py:186} INFO - Started process (PID=7214) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:54:46.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:54:46.204+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:54:46.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:54:46.206+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:54:46.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:55:16.894+0000] {processor.py:186} INFO - Started process (PID=7313) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:55:16.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:55:16.896+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:55:16.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:55:16.898+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:55:16.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:55:47.681+0000] {processor.py:186} INFO - Started process (PID=7421) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:55:47.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:55:47.682+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:55:47.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:55:47.685+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:55:47.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.017 seconds
+[2024-12-02T14:56:18.504+0000] {processor.py:186} INFO - Started process (PID=7524) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:56:18.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:56:18.506+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:56:18.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:56:18.508+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:56:18.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.015 seconds
+[2024-12-02T14:56:49.192+0000] {processor.py:186} INFO - Started process (PID=7625) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:56:49.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:56:49.193+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:56:49.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:56:49.194+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:56:49.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.009 seconds
+[2024-12-02T14:57:20.026+0000] {processor.py:186} INFO - Started process (PID=7724) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:57:20.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:57:20.028+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:57:20.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:57:20.030+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:57:20.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:57:50.719+0000] {processor.py:186} INFO - Started process (PID=7825) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:57:50.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:57:50.720+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:57:50.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:57:50.722+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:57:50.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:58:21.450+0000] {processor.py:186} INFO - Started process (PID=7928) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:58:21.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:58:21.451+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:58:21.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:58:21.453+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:58:21.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T14:58:52.186+0000] {processor.py:186} INFO - Started process (PID=8029) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:58:52.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:58:52.187+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:58:52.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:58:52.189+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:58:52.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T14:59:22.973+0000] {processor.py:186} INFO - Started process (PID=8128) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:59:22.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:59:22.975+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:59:22.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:59:22.976+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:59:22.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.011 seconds
+[2024-12-02T14:59:53.838+0000] {processor.py:186} INFO - Started process (PID=8229) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:59:53.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T14:59:53.840+0000] {logging_mixin.py:190} INFO - [2024-12-02T14:59:53.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:59:53.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T14:59:53.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T15:00:24.534+0000] {processor.py:186} INFO - Started process (PID=8330) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:00:24.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:00:24.536+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:00:24.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:00:24.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:00:24.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T15:00:55.370+0000] {processor.py:186} INFO - Started process (PID=8433) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:00:55.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:00:55.371+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:00:55.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:00:55.372+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:00:55.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.009 seconds
+[2024-12-02T15:01:26.111+0000] {processor.py:186} INFO - Started process (PID=8532) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:01:26.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:01:26.113+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:01:26.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:01:26.116+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:01:26.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.013 seconds
+[2024-12-02T15:01:56.883+0000] {processor.py:186} INFO - Started process (PID=8633) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:01:56.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:01:56.884+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:01:56.884+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:01:56.887+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:01:56.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T15:02:27.735+0000] {processor.py:186} INFO - Started process (PID=8734) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:02:27.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:02:27.737+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:02:27.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:02:27.738+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:02:27.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.010 seconds
+[2024-12-02T15:02:58.523+0000] {processor.py:186} INFO - Started process (PID=8835) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:02:58.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:02:58.526+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:02:58.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:02:58.527+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:02:58.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T15:03:29.259+0000] {processor.py:186} INFO - Started process (PID=8936) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:03:29.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:03:29.263+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:03:29.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:03:29.264+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:03:29.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds
+[2024-12-02T15:04:00.002+0000] {processor.py:186} INFO - Started process (PID=9039) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:04:00.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:04:00.003+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:04:00.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:04:00.005+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:04:00.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.014 seconds
+[2024-12-02T15:04:30.750+0000] {processor.py:186} INFO - Started process (PID=9138) to work on /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:04:30.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_postgres_operator.py for tasks to queue
+[2024-12-02T15:04:30.753+0000] {logging_mixin.py:190} INFO - [2024-12-02T15:04:30.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:04:30.754+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_postgres_operator.py
+[2024-12-02T15:04:30.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_postgres_operator.py took 0.012 seconds

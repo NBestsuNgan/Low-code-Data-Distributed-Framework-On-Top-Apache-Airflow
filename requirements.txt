@@ -1,0 +1,4 @@
+findspark
+pyspark
+boto3
+papermill

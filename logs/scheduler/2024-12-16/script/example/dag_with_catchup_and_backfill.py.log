@@ -1,0 +1,1075 @@
+[2024-12-16T16:19:00.543+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:19:00.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:19:00.546+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:19:00.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:19:00.548+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:19:00.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.015 seconds
+[2024-12-16T16:19:31.129+0000] {processor.py:186} INFO - Started process (PID=466) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:19:31.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:19:31.132+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:19:31.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:19:31.134+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:19:31.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.014 seconds
+[2024-12-16T16:20:01.793+0000] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:20:01.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:20:01.794+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:20:01.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:20:01.796+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:20:01.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.014 seconds
+[2024-12-16T16:20:32.438+0000] {processor.py:186} INFO - Started process (PID=682) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:20:32.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:20:32.439+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:20:32.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:20:32.440+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:20:32.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T16:21:03.080+0000] {processor.py:186} INFO - Started process (PID=787) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:21:03.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:21:03.083+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:21:03.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:21:03.084+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:21:03.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T16:21:33.700+0000] {processor.py:186} INFO - Started process (PID=893) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:21:33.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:21:33.702+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:21:33.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:21:33.703+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:21:33.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T16:22:04.635+0000] {processor.py:186} INFO - Started process (PID=999) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:22:04.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:22:04.638+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:22:04.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:22:04.641+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:22:04.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T16:22:35.552+0000] {processor.py:186} INFO - Started process (PID=1105) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:22:35.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:22:35.554+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:22:35.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:22:35.557+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:22:35.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.015 seconds
+[2024-12-16T16:23:06.407+0000] {processor.py:186} INFO - Started process (PID=1213) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:23:06.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:23:06.409+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:23:06.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:23:06.410+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:23:06.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T16:23:37.038+0000] {processor.py:186} INFO - Started process (PID=1319) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:23:37.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:23:37.039+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:23:37.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:23:37.040+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:23:37.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:24:07.678+0000] {processor.py:186} INFO - Started process (PID=1434) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:24:07.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:24:07.680+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:24:07.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:24:07.684+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:24:07.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.015 seconds
+[2024-12-16T16:24:38.394+0000] {processor.py:186} INFO - Started process (PID=1571) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:24:38.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:24:38.396+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:24:38.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:24:38.396+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:24:38.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:25:09.034+0000] {processor.py:186} INFO - Started process (PID=1678) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:25:09.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:25:09.036+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:25:09.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:25:09.038+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:25:09.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T16:25:39.863+0000] {processor.py:186} INFO - Started process (PID=1781) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:25:39.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:25:39.866+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:25:39.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:25:39.869+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:25:39.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.015 seconds
+[2024-12-16T16:26:10.559+0000] {processor.py:186} INFO - Started process (PID=1889) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:26:10.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:26:10.561+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:26:10.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:26:10.562+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:26:10.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T16:26:41.186+0000] {processor.py:186} INFO - Started process (PID=1995) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:26:41.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:26:41.187+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:26:41.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:26:41.188+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:26:41.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:27:11.895+0000] {processor.py:186} INFO - Started process (PID=2101) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:27:11.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:27:11.896+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:27:11.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:27:11.897+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:27:11.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:27:42.578+0000] {processor.py:186} INFO - Started process (PID=2203) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:27:42.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:27:42.580+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:27:42.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:27:42.582+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:27:42.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:28:13.242+0000] {processor.py:186} INFO - Started process (PID=2309) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:28:13.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:28:13.246+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:28:13.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:28:13.247+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:28:13.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T16:28:43.975+0000] {processor.py:186} INFO - Started process (PID=2419) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:28:43.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:28:43.977+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:28:43.976+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:28:43.978+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:28:43.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:29:14.616+0000] {processor.py:186} INFO - Started process (PID=2535) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:29:14.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:29:14.617+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:29:14.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:29:14.620+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:29:14.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.014 seconds
+[2024-12-16T16:29:45.276+0000] {processor.py:186} INFO - Started process (PID=2666) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:29:45.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:29:45.278+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:29:45.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:29:45.279+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:29:45.284+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T16:30:15.944+0000] {processor.py:186} INFO - Started process (PID=2773) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:30:15.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:30:15.945+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:30:15.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:30:15.946+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:30:15.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:30:46.626+0000] {processor.py:186} INFO - Started process (PID=2877) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:30:46.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:30:46.629+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:30:46.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:30:46.630+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:30:46.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:42:48.621+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:42:48.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:42:48.625+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:42:48.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:42:48.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:42:48.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.025 seconds
+[2024-12-16T16:43:44.780+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:43:44.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:43:44.783+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:43:44.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:43:44.788+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:43:44.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.020 seconds
+[2024-12-16T16:44:15.400+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:44:15.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:44:15.402+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:44:15.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:44:15.403+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:44:15.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T16:44:46.081+0000] {processor.py:186} INFO - Started process (PID=502) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:44:46.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:44:46.082+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:44:46.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:44:46.083+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:44:46.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:45:16.727+0000] {processor.py:186} INFO - Started process (PID=609) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:45:16.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:45:16.728+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:45:16.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:45:16.728+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:45:16.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:45:47.403+0000] {processor.py:186} INFO - Started process (PID=714) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:45:47.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:45:47.405+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:45:47.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:45:47.407+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:45:47.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T16:46:18.084+0000] {processor.py:186} INFO - Started process (PID=821) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:46:18.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:46:18.085+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:46:18.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:46:18.087+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:46:18.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:46:49.079+0000] {processor.py:186} INFO - Started process (PID=928) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:46:49.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:46:49.081+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:46:49.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:46:49.083+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:46:49.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:47:20.125+0000] {processor.py:186} INFO - Started process (PID=1038) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:47:20.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:47:20.127+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:47:20.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:47:20.127+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:47:20.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:48:02.078+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:48:02.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:48:02.080+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:48:02.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:48:02.081+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:48:02.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:48:32.679+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:48:32.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:48:32.680+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:48:32.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:48:32.681+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:48:32.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:49:03.389+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:49:03.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:49:03.390+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:49:03.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:49:03.391+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:49:03.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:49:34.138+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:49:34.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:49:34.139+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:49:34.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:49:34.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:49:34.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:50:04.696+0000] {processor.py:186} INFO - Started process (PID=720) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:50:04.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:50:04.697+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:50:04.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:50:04.698+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:50:04.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:50:35.328+0000] {processor.py:186} INFO - Started process (PID=825) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:50:35.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:50:35.329+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:50:35.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:50:35.330+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:50:35.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:51:06.120+0000] {processor.py:186} INFO - Started process (PID=929) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:51:06.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:51:06.121+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:51:06.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:51:06.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:51:06.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:51:37.059+0000] {processor.py:186} INFO - Started process (PID=1036) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:51:37.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:51:37.061+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:51:37.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:51:37.063+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:51:37.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T16:52:07.771+0000] {processor.py:186} INFO - Started process (PID=1145) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:52:07.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:52:07.772+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:52:07.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:52:07.773+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:52:07.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:52:38.389+0000] {processor.py:186} INFO - Started process (PID=1248) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:52:38.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:52:38.392+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:52:38.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:52:38.395+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:52:38.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T16:53:09.083+0000] {processor.py:186} INFO - Started process (PID=1365) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:53:09.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:53:09.085+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:53:09.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:53:09.086+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:53:09.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T16:53:39.720+0000] {processor.py:186} INFO - Started process (PID=1472) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:53:39.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:53:39.721+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:53:39.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:53:39.722+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:53:39.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T16:54:10.371+0000] {processor.py:186} INFO - Started process (PID=1577) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:54:10.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:54:10.374+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:54:10.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:54:10.375+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:54:10.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T16:54:41.018+0000] {processor.py:186} INFO - Started process (PID=1685) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:54:41.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:54:41.020+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:54:41.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:54:41.021+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:54:41.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T16:55:11.650+0000] {processor.py:186} INFO - Started process (PID=1792) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:55:11.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:55:11.652+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:55:11.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:55:11.653+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:55:11.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T16:55:42.294+0000] {processor.py:186} INFO - Started process (PID=1897) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:55:42.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:55:42.296+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:55:42.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:55:42.298+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:55:42.304+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:56:13.043+0000] {processor.py:186} INFO - Started process (PID=2003) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:56:13.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:56:13.046+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:56:13.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:56:13.047+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:56:13.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.014 seconds
+[2024-12-16T16:56:43.749+0000] {processor.py:186} INFO - Started process (PID=2109) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:56:43.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:56:43.751+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:56:43.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:56:43.754+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:56:43.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T16:57:14.458+0000] {processor.py:186} INFO - Started process (PID=2216) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:57:14.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:57:14.459+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:57:14.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:57:14.460+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:57:14.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T16:57:45.272+0000] {processor.py:186} INFO - Started process (PID=2321) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:57:45.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:57:45.275+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:57:45.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:57:45.277+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:57:45.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.015 seconds
+[2024-12-16T16:58:16.042+0000] {processor.py:186} INFO - Started process (PID=2425) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:58:16.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:58:16.044+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:58:16.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:58:16.046+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:58:16.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T16:58:46.781+0000] {processor.py:186} INFO - Started process (PID=2532) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:58:46.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:58:46.786+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:58:46.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:58:46.787+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:58:46.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.015 seconds
+[2024-12-16T16:59:17.552+0000] {processor.py:186} INFO - Started process (PID=2639) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:59:17.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T16:59:17.553+0000] {logging_mixin.py:190} INFO - [2024-12-16T16:59:17.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:59:17.554+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T16:59:17.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:00:29.861+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:00:29.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:00:29.862+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:00:29.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:00:29.863+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:00:29.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:01:37.956+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:01:37.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:01:37.958+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:01:37.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:01:37.959+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:01:37.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:02:08.604+0000] {processor.py:186} INFO - Started process (PID=366) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:02:08.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:02:08.605+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:02:08.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:02:08.606+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:02:08.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:02:39.334+0000] {processor.py:186} INFO - Started process (PID=471) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:02:39.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:02:39.335+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:02:39.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:02:39.335+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:02:39.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:03:10.031+0000] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:03:10.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:03:10.033+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:03:10.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:03:10.036+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:03:10.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:03:40.727+0000] {processor.py:186} INFO - Started process (PID=681) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:03:40.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:03:40.729+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:03:40.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:03:40.732+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:03:40.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:04:28.654+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:04:28.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:04:28.655+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:04:28.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:04:28.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:04:28.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:04:59.293+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:04:59.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:04:59.295+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:04:59.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:04:59.296+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:04:59.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:05:29.885+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:05:29.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:05:29.886+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:05:29.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:05:29.887+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:05:29.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:06:18.492+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:06:18.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:06:18.497+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:06:18.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:06:18.499+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:06:18.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.016 seconds
+[2024-12-16T17:06:49.144+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:06:49.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:06:49.145+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:06:49.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:06:49.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:06:49.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:07:19.769+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:07:19.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:07:19.772+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:07:19.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:07:19.773+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:07:19.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:07:50.432+0000] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:07:50.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:07:50.433+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:07:50.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:07:50.434+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:07:50.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:08:21.073+0000] {processor.py:186} INFO - Started process (PID=680) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:08:21.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:08:21.074+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:08:21.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:08:21.076+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:08:21.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:08:51.714+0000] {processor.py:186} INFO - Started process (PID=783) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:08:51.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:08:51.715+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:08:51.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:08:51.716+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:08:51.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:09:22.486+0000] {processor.py:186} INFO - Started process (PID=888) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:09:22.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:09:22.487+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:09:22.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:09:22.489+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:09:22.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:09:53.404+0000] {processor.py:186} INFO - Started process (PID=993) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:09:53.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:09:53.407+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:09:53.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:09:53.409+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:09:53.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:10:24.173+0000] {processor.py:186} INFO - Started process (PID=1100) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:10:24.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:10:24.174+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:10:24.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:10:24.175+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:10:24.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:10:54.834+0000] {processor.py:186} INFO - Started process (PID=1204) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:10:54.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:10:54.836+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:10:54.836+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:10:54.838+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:10:54.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:11:25.504+0000] {processor.py:186} INFO - Started process (PID=1313) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:11:25.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:11:25.505+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:11:25.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:11:25.506+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:11:25.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:11:56.140+0000] {processor.py:186} INFO - Started process (PID=1419) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:11:56.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:11:56.142+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:11:56.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:11:56.143+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:11:56.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:12:26.803+0000] {processor.py:186} INFO - Started process (PID=1524) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:12:26.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:12:26.805+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:12:26.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:12:26.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:12:26.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:12:57.502+0000] {processor.py:186} INFO - Started process (PID=1634) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:12:57.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:12:57.503+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:12:57.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:12:57.504+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:12:57.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:13:28.197+0000] {processor.py:186} INFO - Started process (PID=1738) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:13:28.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:13:28.199+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:13:28.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:13:28.200+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:13:28.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:13:58.923+0000] {processor.py:186} INFO - Started process (PID=1846) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:13:58.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:13:58.924+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:13:58.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:13:58.925+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:13:58.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:14:29.623+0000] {processor.py:186} INFO - Started process (PID=1953) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:14:29.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:14:29.624+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:14:29.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:14:29.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:14:29.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:15:00.296+0000] {processor.py:186} INFO - Started process (PID=2057) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:15:00.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:15:00.300+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:15:00.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:15:00.301+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:15:00.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:15:30.963+0000] {processor.py:186} INFO - Started process (PID=2166) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:15:30.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:15:30.965+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:15:30.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:15:30.967+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:15:30.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:16:01.712+0000] {processor.py:186} INFO - Started process (PID=2274) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:16:01.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:16:01.713+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:16:01.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:16:01.714+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:16:01.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:16:32.480+0000] {processor.py:186} INFO - Started process (PID=2380) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:16:32.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:16:32.482+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:16:32.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:16:32.483+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:16:32.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:17:03.207+0000] {processor.py:186} INFO - Started process (PID=2486) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:17:03.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:17:03.208+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:17:03.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:17:03.209+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:17:03.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:17:33.912+0000] {processor.py:186} INFO - Started process (PID=2593) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:17:33.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:17:33.913+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:17:33.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:17:33.914+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:17:33.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:18:04.603+0000] {processor.py:186} INFO - Started process (PID=2699) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:18:04.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:18:04.605+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:18:04.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:18:04.606+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:18:04.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:18:35.270+0000] {processor.py:186} INFO - Started process (PID=2805) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:18:35.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:18:35.272+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:18:35.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:18:35.273+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:18:35.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:19:05.982+0000] {processor.py:186} INFO - Started process (PID=2912) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:19:05.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:19:05.983+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:19:05.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:19:05.984+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:19:05.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:19:36.688+0000] {processor.py:186} INFO - Started process (PID=3017) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:19:36.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:19:36.689+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:19:36.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:19:36.690+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:19:36.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:20:07.363+0000] {processor.py:186} INFO - Started process (PID=3122) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:20:07.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:20:07.364+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:20:07.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:20:07.365+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:20:07.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:20:38.086+0000] {processor.py:186} INFO - Started process (PID=3231) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:20:38.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:20:38.087+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:20:38.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:20:38.088+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:20:38.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:21:08.797+0000] {processor.py:186} INFO - Started process (PID=3336) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:21:08.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:21:08.812+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:21:08.808+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:21:08.814+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:21:08.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.027 seconds
+[2024-12-16T17:21:39.534+0000] {processor.py:186} INFO - Started process (PID=3443) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:21:39.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:21:39.535+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:21:39.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:21:39.536+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:21:39.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:22:10.215+0000] {processor.py:186} INFO - Started process (PID=3550) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:22:10.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:22:10.216+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:22:10.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:22:10.217+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:22:10.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:22:40.869+0000] {processor.py:186} INFO - Started process (PID=3659) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:22:40.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:22:40.872+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:22:40.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:22:40.873+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:22:40.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:23:11.551+0000] {processor.py:186} INFO - Started process (PID=3767) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:23:11.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:23:11.552+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:23:11.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:23:11.553+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:23:11.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:23:42.266+0000] {processor.py:186} INFO - Started process (PID=3871) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:23:42.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:23:42.270+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:23:42.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:23:42.271+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:23:42.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:24:43.891+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:24:43.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:24:43.893+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:24:43.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:24:43.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:24:43.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:25:14.524+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:25:14.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:25:14.526+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:25:14.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:25:14.528+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:25:14.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:25:45.210+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:25:45.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:25:45.211+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:25:45.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:25:45.212+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:25:45.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:26:33.785+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:26:33.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:26:33.787+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:26:33.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:26:33.788+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:26:33.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:27:04.453+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:27:04.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:27:04.454+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:27:04.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:27:04.455+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:27:04.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:27:35.107+0000] {processor.py:186} INFO - Started process (PID=471) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:27:35.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:27:35.108+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:27:35.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:27:35.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:27:35.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:28:06.058+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:28:06.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:28:06.061+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:28:06.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:28:06.065+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:28:06.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.032 seconds
+[2024-12-16T17:28:40.631+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:28:40.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:28:40.632+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:28:40.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:28:40.633+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:28:40.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:29:11.267+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:29:11.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:29:11.269+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:29:11.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:29:11.272+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:29:11.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:29:41.949+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:29:41.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:29:41.950+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:29:41.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:29:41.951+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:29:41.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:30:12.702+0000] {processor.py:186} INFO - Started process (PID=572) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:30:12.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:30:12.703+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:30:12.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:30:12.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:30:12.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.014 seconds
+[2024-12-16T17:30:43.381+0000] {processor.py:186} INFO - Started process (PID=678) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:30:43.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:30:43.383+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:30:43.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:30:43.385+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:30:43.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:31:40.696+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:31:40.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:31:40.697+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:31:40.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:31:40.698+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:31:40.704+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:32:32.764+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:32:32.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:32:32.767+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:32:32.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:32:32.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:32:32.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.018 seconds
+[2024-12-16T17:33:03.435+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:33:03.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:33:03.436+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:33:03.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:33:03.437+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:33:03.442+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:33:34.038+0000] {processor.py:186} INFO - Started process (PID=473) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:33:34.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:33:34.039+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:33:34.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:33:34.040+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:33:34.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:34:04.687+0000] {processor.py:186} INFO - Started process (PID=580) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:34:04.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:34:04.688+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:34:04.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:34:04.689+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:34:04.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:34:35.396+0000] {processor.py:186} INFO - Started process (PID=687) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:34:35.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:34:35.397+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:34:35.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:34:35.398+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:34:35.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:35:06.063+0000] {processor.py:186} INFO - Started process (PID=794) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:35:06.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:35:06.064+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:35:06.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:35:06.065+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:35:06.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:36:01.592+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:36:01.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:36:01.593+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:36:01.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:36:01.595+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:36:01.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:36:32.220+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:36:32.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:36:32.222+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:36:32.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:36:32.223+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:36:32.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:37:02.906+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:37:02.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:37:02.909+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:37:02.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:37:02.910+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:37:02.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:38:44.755+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:38:44.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:38:44.756+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:38:44.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:38:44.757+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:38:44.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:39:15.415+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:39:15.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:39:15.417+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:39:15.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:39:15.417+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:39:15.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:39:46.031+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:39:46.031+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:39:46.033+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:39:46.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:39:46.035+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:39:46.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:40:16.692+0000] {processor.py:186} INFO - Started process (PID=574) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:40:16.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:40:16.694+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:40:16.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:40:16.696+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:40:16.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:41:02.108+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:41:02.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:41:02.110+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:41:02.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:41:02.111+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:41:02.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:41:32.801+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:41:32.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:41:32.802+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:41:32.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:41:32.803+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:41:32.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:42:03.486+0000] {processor.py:186} INFO - Started process (PID=467) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:42:03.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:42:03.487+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:42:03.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:42:03.488+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:42:03.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:42:34.163+0000] {processor.py:186} INFO - Started process (PID=574) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:42:34.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:42:34.165+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:42:34.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:42:34.166+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:42:34.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:43:04.870+0000] {processor.py:186} INFO - Started process (PID=677) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:43:04.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:43:04.872+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:43:04.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:43:04.873+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:43:04.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:43:35.592+0000] {processor.py:186} INFO - Started process (PID=784) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:43:35.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:43:35.593+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:43:35.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:43:35.596+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:43:35.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.016 seconds
+[2024-12-16T17:44:06.282+0000] {processor.py:186} INFO - Started process (PID=890) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:44:06.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:44:06.285+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:44:06.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:44:06.288+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:44:06.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:44:37.250+0000] {processor.py:186} INFO - Started process (PID=997) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:44:37.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:44:37.252+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:44:37.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:44:37.254+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:44:37.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.014 seconds
+[2024-12-16T17:45:07.924+0000] {processor.py:186} INFO - Started process (PID=1105) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:45:07.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:45:07.925+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:45:07.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:45:07.926+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:45:07.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:45:38.578+0000] {processor.py:186} INFO - Started process (PID=1211) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:45:38.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:45:38.579+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:45:38.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:45:38.580+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:45:38.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:46:09.227+0000] {processor.py:186} INFO - Started process (PID=1317) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:46:09.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:46:09.229+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:46:09.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:46:09.231+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:46:09.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:46:39.877+0000] {processor.py:186} INFO - Started process (PID=1426) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:46:39.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:46:39.879+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:46:39.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:46:39.879+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:46:39.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:47:10.521+0000] {processor.py:186} INFO - Started process (PID=1532) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:47:10.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:47:10.523+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:47:10.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:47:10.524+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:47:10.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:47:41.153+0000] {processor.py:186} INFO - Started process (PID=1639) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:47:41.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:47:41.155+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:47:41.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:47:41.156+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:47:41.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:48:11.776+0000] {processor.py:186} INFO - Started process (PID=1747) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:48:11.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:48:11.778+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:48:11.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:48:11.778+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:48:11.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:48:42.414+0000] {processor.py:186} INFO - Started process (PID=1853) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:48:42.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:48:42.416+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:48:42.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:48:42.417+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:48:42.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:49:13.041+0000] {processor.py:186} INFO - Started process (PID=1959) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:49:13.041+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:49:13.042+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:49:13.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:49:13.043+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:49:13.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:49:43.659+0000] {processor.py:186} INFO - Started process (PID=2066) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:49:43.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:49:43.660+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:49:43.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:49:43.661+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:49:43.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:50:14.265+0000] {processor.py:186} INFO - Started process (PID=2173) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:50:14.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:50:14.266+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:50:14.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:50:14.267+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:50:14.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:50:44.931+0000] {processor.py:186} INFO - Started process (PID=2279) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:50:44.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:50:44.932+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:50:44.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:50:44.933+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:50:44.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:51:15.594+0000] {processor.py:186} INFO - Started process (PID=2382) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:51:15.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:51:15.596+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:51:15.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:51:15.598+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:51:15.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:51:46.298+0000] {processor.py:186} INFO - Started process (PID=2490) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:51:46.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:51:46.300+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:51:46.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:51:46.300+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:51:46.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:52:16.934+0000] {processor.py:186} INFO - Started process (PID=2594) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:52:16.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:52:16.937+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:52:16.937+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:52:16.938+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:52:16.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:53:02.390+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:53:02.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:53:02.392+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:53:02.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:53:02.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:53:02.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.014 seconds
+[2024-12-16T17:53:33.070+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:53:33.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:53:33.071+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:53:33.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:53:33.072+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:53:33.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:54:13.924+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:54:13.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:54:13.926+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:54:13.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:54:13.930+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:54:13.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.015 seconds
+[2024-12-16T17:54:44.550+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:54:44.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:54:44.552+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:54:44.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:54:44.554+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:54:44.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T17:55:43.610+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:55:43.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:55:43.611+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:55:43.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:55:43.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:55:43.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T17:56:14.253+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:56:14.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:56:14.254+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:56:14.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:56:14.255+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:56:14.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:56:44.848+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:56:44.848+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:56:44.849+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:56:44.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:56:44.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:56:44.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.008 seconds
+[2024-12-16T17:57:26.066+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:57:26.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:57:26.068+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:57:26.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:57:26.069+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:57:26.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T17:57:56.701+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:57:56.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:57:56.703+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:57:56.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:57:56.704+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:57:56.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:58:27.307+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:58:27.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:58:27.308+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:58:27.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:58:27.309+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:58:27.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T17:59:01.125+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:59:01.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:59:01.127+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:59:01.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:59:01.129+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:59:01.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T17:59:31.742+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:59:31.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T17:59:31.745+0000] {logging_mixin.py:190} INFO - [2024-12-16T17:59:31.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:59:31.746+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T17:59:31.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T18:00:26.161+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:00:26.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:00:26.163+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:00:26.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:00:26.166+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:00:26.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T18:00:56.772+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:00:56.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:00:56.773+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:00:56.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:00:56.774+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:00:56.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T18:01:27.403+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:01:27.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:01:27.405+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:01:27.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:01:27.408+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:01:27.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T18:01:58.017+0000] {processor.py:186} INFO - Started process (PID=577) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:01:58.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:01:58.018+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:01:58.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:01:58.019+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:01:58.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:02:28.661+0000] {processor.py:186} INFO - Started process (PID=685) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:02:28.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:02:28.662+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:02:28.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:02:28.663+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:02:28.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:03:18.714+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:03:18.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:03:18.716+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:03:18.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:03:18.718+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:03:18.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.016 seconds
+[2024-12-16T18:03:49.374+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:03:49.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:03:49.375+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:03:49.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:03:49.375+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:03:49.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T18:04:33.191+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:04:33.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:04:33.193+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:04:33.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:04:33.194+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:04:33.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T18:05:03.839+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:05:03.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:05:03.841+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:05:03.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:05:03.843+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:05:03.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T18:05:34.530+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:05:34.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:05:34.531+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:05:34.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:05:34.532+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:05:34.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T18:06:05.142+0000] {processor.py:186} INFO - Started process (PID=574) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:06:05.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:06:05.144+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:06:05.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:06:05.147+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:06:05.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T18:06:35.815+0000] {processor.py:186} INFO - Started process (PID=681) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:06:35.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:06:35.817+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:06:35.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:06:35.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:06:35.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T18:07:06.444+0000] {processor.py:186} INFO - Started process (PID=789) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:07:06.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:07:06.445+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:07:06.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:07:06.445+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:07:06.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:07:37.178+0000] {processor.py:186} INFO - Started process (PID=894) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:07:37.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:07:37.180+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:07:37.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:07:37.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:07:37.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:08:08.048+0000] {processor.py:186} INFO - Started process (PID=999) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:08:08.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:08:08.049+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:08:08.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:08:08.051+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:08:08.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:08:38.733+0000] {processor.py:186} INFO - Started process (PID=1108) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:08:38.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:08:38.734+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:08:38.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:08:38.735+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:08:38.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:09:09.360+0000] {processor.py:186} INFO - Started process (PID=1214) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:09:09.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:09:09.362+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:09:09.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:09:09.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:09:09.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:09:40.050+0000] {processor.py:186} INFO - Started process (PID=1318) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:09:40.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:09:40.052+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:09:40.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:09:40.054+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:09:40.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T18:10:10.706+0000] {processor.py:186} INFO - Started process (PID=1426) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:10:10.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:10:10.707+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:10:10.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:10:10.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:10:10.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:10:41.343+0000] {processor.py:186} INFO - Started process (PID=1530) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:10:41.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:10:41.346+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:10:41.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:10:41.347+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:10:41.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:11:11.983+0000] {processor.py:186} INFO - Started process (PID=1639) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:11:11.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:11:11.984+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:11:11.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:11:11.985+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:11:11.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:14:00.159+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:14:00.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:14:00.160+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:14:00.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:14:00.161+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:14:00.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T18:14:30.772+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:14:30.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:14:30.774+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:14:30.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:14:30.777+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:14:30.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.014 seconds
+[2024-12-16T18:16:05.685+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:16:05.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:16:05.688+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:16:05.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:16:05.690+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:16:05.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:16:36.330+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:16:36.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:16:36.331+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:16:36.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:16:36.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:16:36.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:17:06.885+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:17:06.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:17:06.887+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:17:06.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:17:06.889+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:17:06.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:17:37.563+0000] {processor.py:186} INFO - Started process (PID=576) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:17:37.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:17:37.565+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:17:37.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:17:37.567+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:17:37.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:18:08.277+0000] {processor.py:186} INFO - Started process (PID=684) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:18:08.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:18:08.279+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:18:08.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:18:08.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:18:08.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T18:18:38.894+0000] {processor.py:186} INFO - Started process (PID=791) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:18:38.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:18:38.896+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:18:38.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:18:38.896+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:18:38.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:19:09.594+0000] {processor.py:186} INFO - Started process (PID=895) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:19:09.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:19:09.595+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:19:09.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:19:09.598+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:19:09.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.011 seconds
+[2024-12-16T18:19:40.505+0000] {processor.py:186} INFO - Started process (PID=1002) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:19:40.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:19:40.507+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:19:40.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:19:40.509+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:19:40.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T18:20:11.246+0000] {processor.py:186} INFO - Started process (PID=1109) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:20:11.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:20:11.247+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:20:11.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:20:11.248+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:20:11.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T18:20:41.908+0000] {processor.py:186} INFO - Started process (PID=1217) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:20:41.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:20:41.910+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:20:41.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:20:41.910+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:20:41.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:21:12.613+0000] {processor.py:186} INFO - Started process (PID=1325) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:21:12.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:21:12.615+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:21:12.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:21:12.615+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:21:12.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:21:43.236+0000] {processor.py:186} INFO - Started process (PID=1432) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:21:43.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:21:43.238+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:21:43.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:21:43.238+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:21:43.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:22:13.893+0000] {processor.py:186} INFO - Started process (PID=1536) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:22:13.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:22:13.895+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:22:13.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:22:13.897+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:22:13.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:22:44.512+0000] {processor.py:186} INFO - Started process (PID=1645) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:22:44.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:22:44.513+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:22:44.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:22:44.515+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:22:44.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T18:23:22.947+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:23:22.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:23:22.949+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:23:22.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:23:22.952+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:23:22.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T18:23:53.627+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:23:53.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:23:53.628+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:23:53.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:23:53.629+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:23:53.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T18:24:24.204+0000] {processor.py:186} INFO - Started process (PID=473) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:24:24.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:24:24.206+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:24:24.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:24:24.206+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:24:24.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:24:54.885+0000] {processor.py:186} INFO - Started process (PID=578) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:24:54.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:24:54.886+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:24:54.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:24:54.886+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:24:54.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:25:25.528+0000] {processor.py:186} INFO - Started process (PID=684) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:25:25.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:25:25.530+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:25:25.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:25:25.532+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:25:25.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:26:09.061+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:26:09.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:26:09.062+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:26:09.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:26:09.063+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:26:09.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T18:26:59.600+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:26:59.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:26:59.601+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:26:59.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:26:59.602+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:26:59.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.010 seconds
+[2024-12-16T18:27:30.218+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:27:30.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:27:30.219+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:27:30.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:27:30.220+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:27:30.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:28:00.813+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:28:00.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:28:00.815+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:28:00.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:28:00.816+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:28:00.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:28:31.457+0000] {processor.py:186} INFO - Started process (PID=578) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:28:31.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:28:31.458+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:28:31.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:28:31.459+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:28:31.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:29:02.096+0000] {processor.py:186} INFO - Started process (PID=683) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:29:02.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:29:02.097+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:29:02.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:29:02.098+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:29:02.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:29:32.735+0000] {processor.py:186} INFO - Started process (PID=789) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:29:32.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:29:32.736+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:29:32.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:29:32.737+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:29:32.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:30:10.322+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:30:10.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:30:10.323+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:30:10.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:30:10.326+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:30:10.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.013 seconds
+[2024-12-16T18:31:04.739+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:31:04.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:31:04.741+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:31:04.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:31:04.744+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:31:04.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.016 seconds
+[2024-12-16T18:31:35.379+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:31:35.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:31:35.380+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:31:35.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:31:35.381+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:31:35.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.009 seconds
+[2024-12-16T18:32:05.991+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:32:05.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:32:05.992+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:32:05.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:32:05.993+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:32:06.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.012 seconds
+[2024-12-16T18:32:36.657+0000] {processor.py:186} INFO - Started process (PID=579) to work on /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:32:36.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py for tasks to queue
+[2024-12-16T18:32:36.658+0000] {logging_mixin.py:190} INFO - [2024-12-16T18:32:36.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:32:36.659+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py
+[2024-12-16T18:32:36.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_catchup_and_backfill.py took 0.008 seconds

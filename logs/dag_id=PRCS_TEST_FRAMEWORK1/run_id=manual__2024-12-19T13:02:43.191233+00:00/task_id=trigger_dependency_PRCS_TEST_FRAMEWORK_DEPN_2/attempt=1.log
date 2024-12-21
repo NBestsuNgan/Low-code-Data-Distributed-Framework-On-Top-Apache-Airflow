@@ -1,0 +1,16 @@
+[2024-12-19T13:02:43.611+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-19T13:02:43.619+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: PRCS_TEST_FRAMEWORK1.trigger_dependency_PRCS_TEST_FRAMEWORK_DEPN_2 manual__2024-12-19T13:02:43.191233+00:00 [queued]>
+[2024-12-19T13:02:43.624+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: PRCS_TEST_FRAMEWORK1.trigger_dependency_PRCS_TEST_FRAMEWORK_DEPN_2 manual__2024-12-19T13:02:43.191233+00:00 [queued]>
+[2024-12-19T13:02:43.624+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2024-12-19T13:02:43.630+0000] {taskinstance.py:2889} INFO - Executing <Task(TriggerDagRunOperator): trigger_dependency_PRCS_TEST_FRAMEWORK_DEPN_2> on 2024-12-19 13:02:43.191233+00:00
+[2024-12-19T13:02:43.636+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=9231) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-19T13:02:43.636+0000] {standard_task_runner.py:72} INFO - Started process 9253 to run task
+[2024-12-19T13:02:43.636+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'PRCS_TEST_FRAMEWORK1', 'trigger_dependency_PRCS_TEST_FRAMEWORK_DEPN_2', 'manual__2024-12-19T13:02:43.191233+00:00', '--job-id', '2305', '--raw', '--subdir', 'DAGS_FOLDER/script/PRCS_TEST_FRAMEWORK1.py', '--cfg-path', '/tmp/tmpkeduduc3']
+[2024-12-19T13:02:43.637+0000] {standard_task_runner.py:105} INFO - Job 2305: Subtask trigger_dependency_PRCS_TEST_FRAMEWORK_DEPN_2
+[2024-12-19T13:02:43.656+0000] {task_command.py:467} INFO - Running <TaskInstance: PRCS_TEST_FRAMEWORK1.trigger_dependency_PRCS_TEST_FRAMEWORK_DEPN_2 manual__2024-12-19T13:02:43.191233+00:00 [running]> on host 60778319043b
+[2024-12-19T13:02:43.686+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nattapat-process' AIRFLOW_CTX_DAG_ID='PRCS_TEST_FRAMEWORK1' AIRFLOW_CTX_TASK_ID='trigger_dependency_PRCS_TEST_FRAMEWORK_DEPN_2' AIRFLOW_CTX_EXECUTION_DATE='2024-12-19T13:02:43.191233+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-19T13:02:43.191233+00:00'
+[2024-12-19T13:02:43.687+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-19T13:02:43.723+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-19T13:02:43.724+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=PRCS_TEST_FRAMEWORK1, task_id=trigger_dependency_PRCS_TEST_FRAMEWORK_DEPN_2, run_id=manual__2024-12-19T13:02:43.191233+00:00, execution_date=20241219T130243, start_date=20241219T130243, end_date=20241219T130243
+[2024-12-19T13:02:43.736+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-19T13:02:43.744+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

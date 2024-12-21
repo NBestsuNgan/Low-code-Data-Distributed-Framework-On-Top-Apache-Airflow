@@ -1,0 +1,111 @@
+[2024-12-15T10:12:58.621+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-15T10:12:58.626+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: PRCS_TEST_FRAMEWORK1.run_notebook manual__2024-12-15T09:47:08.822370+00:00 [queued]>
+[2024-12-15T10:12:58.629+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: PRCS_TEST_FRAMEWORK1.run_notebook manual__2024-12-15T09:47:08.822370+00:00 [queued]>
+[2024-12-15T10:12:58.629+0000] {taskinstance.py:2866} INFO - Starting attempt 6 of 6
+[2024-12-15T10:12:58.633+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): run_notebook> on 2024-12-15 09:47:08.822370+00:00
+[2024-12-15T10:12:58.636+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=5926) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-15T10:12:58.637+0000] {standard_task_runner.py:72} INFO - Started process 5937 to run task
+[2024-12-15T10:12:58.636+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'PRCS_TEST_FRAMEWORK1', 'run_notebook', 'manual__2024-12-15T09:47:08.822370+00:00', '--job-id', '1836', '--raw', '--subdir', 'DAGS_FOLDER/script/PRCS_TEST_FRAMEWORK1.py', '--cfg-path', '/tmp/tmpv4h0byd2']
+[2024-12-15T10:12:58.637+0000] {standard_task_runner.py:105} INFO - Job 1836: Subtask run_notebook
+[2024-12-15T10:12:58.653+0000] {task_command.py:467} INFO - Running <TaskInstance: PRCS_TEST_FRAMEWORK1.run_notebook manual__2024-12-15T09:47:08.822370+00:00 [running]> on host 6418ebfba5fb
+[2024-12-15T10:12:58.676+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='test-framework' AIRFLOW_CTX_DAG_ID='PRCS_TEST_FRAMEWORK1' AIRFLOW_CTX_TASK_ID='run_notebook' AIRFLOW_CTX_EXECUTION_DATE='2024-12-15T09:47:08.822370+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-15T09:47:08.822370+00:00'
+[2024-12-15T10:12:58.677+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-15T10:12:58.681+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-15T10:12:58.681+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '\n                docker exec 880868f8f42f jupyter nbconvert --to notebook --execute                 --output /home/iceberg/notebooks/Log_output/PRCS_TEST_FRAMEWORK1/test1_executed.ipynb                 /home/iceberg/notebooks/notebooks/staging/uat/***/test1.ipynb\n            ']
+[2024-12-15T10:12:58.684+0000] {subprocess.py:99} INFO - Output:
+[2024-12-15T10:12:59.068+0000] {subprocess.py:106} INFO - [NbConvertApp] Converting notebook /home/iceberg/notebooks/notebooks/staging/uat/***/test1.ipynb to notebook
+[2024-12-15T10:13:00.756+0000] {subprocess.py:106} INFO - Setting default log level to "WARN".
+[2024-12-15T10:13:00.758+0000] {subprocess.py:106} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2024-12-15T10:13:00.882+0000] {subprocess.py:106} INFO - 24/12/15 10:13:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-12-15T10:13:01.184+0000] {subprocess.py:106} INFO - 24/12/15 10:13:01 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2024-12-15T10:13:06.710+0000] {subprocess.py:106} INFO - [NbConvertApp] Writing 6202 bytes to /home/iceberg/notebooks/Log_output/PRCS_TEST_FRAMEWORK1/test1_executed.ipynb
+[2024-12-15T10:13:06.710+0000] {subprocess.py:106} INFO - Traceback (most recent call last):
+[2024-12-15T10:13:06.710+0000] {subprocess.py:106} INFO -   File "/usr/local/bin/jupyter-nbconvert", line 8, in <module>
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -     sys.exit(main())
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -   File "/usr/local/lib/python3.9/site-packages/jupyter_core/application.py", line 283, in launch_instance
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -     super().launch_instance(argv=argv, **kwargs)
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -   File "/usr/local/lib/python3.9/site-packages/traitlets/config/application.py", line 1075, in launch_instance
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -     app.start()
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -   File "/usr/local/lib/python3.9/site-packages/nbconvert/nbconvertapp.py", line 420, in start
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -     self.convert_notebooks()
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -   File "/usr/local/lib/python3.9/site-packages/nbconvert/nbconvertapp.py", line 597, in convert_notebooks
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -     self.convert_single_notebook(notebook_filename)
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -   File "/usr/local/lib/python3.9/site-packages/nbconvert/nbconvertapp.py", line 566, in convert_single_notebook
+[2024-12-15T10:13:06.711+0000] {subprocess.py:106} INFO -     write_results = self.write_single_notebook(output, resources)
+[2024-12-15T10:13:06.712+0000] {subprocess.py:106} INFO -   File "/usr/local/lib/python3.9/site-packages/nbconvert/nbconvertapp.py", line 526, in write_single_notebook
+[2024-12-15T10:13:06.712+0000] {subprocess.py:106} INFO -     return self.writer.write(output, resources, notebook_name=notebook_name)
+[2024-12-15T10:13:06.712+0000] {subprocess.py:106} INFO -   File "/usr/local/lib/python3.9/site-packages/nbconvert/writers/files.py", line 152, in write
+[2024-12-15T10:13:06.712+0000] {subprocess.py:106} INFO -     with open(dest_path, "w", encoding="utf-8") as f:
+[2024-12-15T10:13:06.712+0000] {subprocess.py:106} INFO - FileNotFoundError: [Errno 2] No such file or directory: '/home/iceberg/notebooks/Log_output/PRCS_TEST_FRAMEWORK1/test1_executed.ipynb'
+[2024-12-15T10:13:06.755+0000] {subprocess.py:110} INFO - Command exited with return code 1
+[2024-12-15T10:13:06.759+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-12-15T10:13:06.760+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=PRCS_TEST_FRAMEWORK1, task_id=run_notebook, run_id=manual__2024-12-15T09:47:08.822370+00:00, execution_date=20241215T094708, start_date=20241215T101258, end_date=20241215T101306
+[2024-12-15T10:13:06.765+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-15T10:13:06.765+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 1836 for task run_notebook (Bash command failed. The command returned a non-zero exit code 1.; 5937)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-12-15T10:13:06.797+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-15T10:13:06.803+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-15T10:13:06.804+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

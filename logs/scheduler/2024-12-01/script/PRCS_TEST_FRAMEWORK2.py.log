@@ -1,0 +1,912 @@
+[2024-12-01T07:07:10.589+0000] {processor.py:186} INFO - Started process (PID=11021) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:07:10.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:07:10.591+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:07:10.604+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.604+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:07:10.613+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:07:10.657+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.656+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:PRCS_TEST_FRAMEWORK2
+[2024-12-01T07:07:10.662+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.662+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:PRCS_TEST_FRAMEWORK2
+[2024-12-01T07:07:10.664+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.664+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:PRCS_TEST_FRAMEWORK2
+[2024-12-01T07:07:10.666+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.666+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:PRCS_TEST_FRAMEWORK2
+[2024-12-01T07:07:10.668+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.668+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:PRCS_TEST_FRAMEWORK2
+[2024-12-01T07:07:10.670+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.670+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:PRCS_TEST_FRAMEWORK2
+[2024-12-01T07:07:10.673+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.673+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:PRCS_TEST_FRAMEWORK2
+[2024-12-01T07:07:10.673+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:07:10.679+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.679+0000] {dag.py:3262} INFO - Creating ORM DAG for PRCS_TEST_FRAMEWORK2
+[2024-12-01T07:07:10.679+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:10.679+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:07:10.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.099 seconds
+[2024-12-01T07:07:41.231+0000] {processor.py:186} INFO - Started process (PID=11122) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:07:41.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:07:41.233+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:41.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:07:41.248+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:41.248+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:07:41.259+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:07:41.266+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:41.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:07:41.272+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:07:41.272+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:07:41.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T07:08:11.904+0000] {processor.py:186} INFO - Started process (PID=11223) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:08:11.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:08:11.906+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:08:11.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:08:11.922+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:08:11.922+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:08:11.930+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:08:11.938+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:08:11.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:08:11.946+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:08:11.946+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:08:11.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T07:08:42.574+0000] {processor.py:186} INFO - Started process (PID=11323) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:08:42.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:08:42.576+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:08:42.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:08:42.592+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:08:42.591+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:08:42.599+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:08:42.606+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:08:42.606+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:08:42.612+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:08:42.612+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:08:42.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:09:13.332+0000] {processor.py:186} INFO - Started process (PID=11424) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:09:13.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:09:13.334+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:09:13.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:09:13.353+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:09:13.353+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:09:13.367+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:09:13.375+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:09:13.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:09:13.385+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:09:13.385+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:09:13.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.067 seconds
+[2024-12-01T07:09:44.008+0000] {processor.py:186} INFO - Started process (PID=11525) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:09:44.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:09:44.010+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:09:44.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:09:44.025+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:09:44.024+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:09:44.035+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:09:44.041+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:09:44.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:09:44.047+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:09:44.047+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:09:44.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T07:10:14.669+0000] {processor.py:186} INFO - Started process (PID=11626) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:10:14.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:10:14.672+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:10:14.672+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:10:14.686+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:10:14.686+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:10:14.696+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:10:14.702+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:10:14.702+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:10:14.708+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:10:14.707+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:10:14.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T07:10:45.341+0000] {processor.py:186} INFO - Started process (PID=11727) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:10:45.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:10:45.343+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:10:45.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:10:45.353+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:10:45.353+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:10:45.362+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:10:45.369+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:10:45.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:10:45.375+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:10:45.375+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:10:45.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.046 seconds
+[2024-12-01T07:11:16.007+0000] {processor.py:186} INFO - Started process (PID=11828) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:11:16.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:11:16.009+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:11:16.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:11:16.021+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:11:16.021+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:11:16.030+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:11:16.038+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:11:16.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:11:16.045+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:11:16.045+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:11:16.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:11:46.713+0000] {processor.py:186} INFO - Started process (PID=11929) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:11:46.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:11:46.715+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:11:46.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:11:46.733+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:11:46.732+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:11:46.745+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:11:46.750+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:11:46.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:11:46.756+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:11:46.756+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:11:46.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.056 seconds
+[2024-12-01T07:14:39.689+0000] {processor.py:186} INFO - Started process (PID=12030) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:14:39.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:14:39.692+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:14:39.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:14:39.721+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:14:39.721+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:14:39.742+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:14:39.757+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:14:39.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:14:39.768+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:14:39.768+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:14:39.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.120 seconds
+[2024-12-01T07:15:10.618+0000] {processor.py:186} INFO - Started process (PID=12131) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:15:10.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:15:10.620+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:15:10.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:15:10.638+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:15:10.638+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:15:10.648+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:15:10.655+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:15:10.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:15:10.663+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:15:10.663+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:15:10.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.060 seconds
+[2024-12-01T07:15:41.361+0000] {processor.py:186} INFO - Started process (PID=12232) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:15:41.362+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:15:41.363+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:15:41.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:15:41.376+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:15:41.376+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:15:41.385+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:15:41.391+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:15:41.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:15:41.400+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:15:41.400+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:15:41.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:16:12.034+0000] {processor.py:186} INFO - Started process (PID=12333) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:16:12.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:16:12.036+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:16:12.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:16:12.046+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:16:12.046+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:16:12.063+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:16:12.069+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:16:12.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:16:12.074+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:16:12.074+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:16:12.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:16:42.795+0000] {processor.py:186} INFO - Started process (PID=12434) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:16:42.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:16:42.798+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:16:42.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:16:42.821+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:16:42.821+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:16:42.836+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:16:42.846+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:16:42.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:16:42.857+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:16:42.856+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:16:42.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.082 seconds
+[2024-12-01T07:17:13.659+0000] {processor.py:186} INFO - Started process (PID=12535) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:17:13.660+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:17:13.661+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:17:13.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:17:13.675+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:17:13.675+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:17:13.685+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:17:13.692+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:17:13.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:17:13.698+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:17:13.698+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:17:13.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:17:44.340+0000] {processor.py:186} INFO - Started process (PID=12636) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:17:44.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:17:44.342+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:17:44.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:17:44.357+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:17:44.357+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:17:44.367+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:17:44.373+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:17:44.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:17:44.379+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:17:44.379+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:17:44.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T07:18:15.021+0000] {processor.py:186} INFO - Started process (PID=12737) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:18:15.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:18:15.022+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:18:15.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:18:15.038+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:18:15.038+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:18:15.048+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:18:15.054+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:18:15.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:18:15.061+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:18:15.061+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:18:15.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:18:45.723+0000] {processor.py:186} INFO - Started process (PID=12838) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:18:45.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:18:45.725+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:18:45.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:18:45.738+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:18:45.737+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:18:45.746+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:18:45.753+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:18:45.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:18:45.762+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:18:45.761+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:18:45.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T07:19:16.413+0000] {processor.py:186} INFO - Started process (PID=12939) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:19:16.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:19:16.415+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:19:16.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:19:16.430+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:19:16.430+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:19:16.443+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:19:16.452+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:19:16.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:19:16.458+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:19:16.458+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:19:16.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.058 seconds
+[2024-12-01T07:19:47.104+0000] {processor.py:186} INFO - Started process (PID=13040) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:19:47.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:19:47.106+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:19:47.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:19:47.121+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:19:47.121+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:19:47.133+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:19:47.139+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:19:47.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:19:47.145+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:19:47.145+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:19:47.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:20:17.787+0000] {processor.py:186} INFO - Started process (PID=13141) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:20:17.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:20:17.789+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:20:17.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:20:17.803+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:20:17.803+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:20:17.812+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:20:17.818+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:20:17.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:20:17.825+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:20:17.824+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:20:17.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T07:20:48.406+0000] {processor.py:186} INFO - Started process (PID=13242) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:20:48.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:20:48.407+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:20:48.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:20:48.422+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:20:48.422+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:20:48.430+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:20:48.437+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:20:48.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:20:48.443+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:20:48.443+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:20:48.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.049 seconds
+[2024-12-01T07:21:19.086+0000] {processor.py:186} INFO - Started process (PID=13343) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:21:19.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:21:19.088+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:21:19.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:21:19.103+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:21:19.103+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:21:19.111+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:21:19.118+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:21:19.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:21:19.124+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:21:19.124+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:21:19.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:21:49.736+0000] {processor.py:186} INFO - Started process (PID=13444) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:21:49.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:21:49.738+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:21:49.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:21:49.750+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:21:49.750+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:21:49.759+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:21:49.765+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:21:49.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:21:49.771+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:21:49.770+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:21:49.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.046 seconds
+[2024-12-01T07:22:19.950+0000] {processor.py:186} INFO - Started process (PID=13545) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:22:19.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:22:19.952+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:22:19.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:22:19.965+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:22:19.965+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:22:19.974+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:22:19.982+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:22:19.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:22:19.989+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:22:19.989+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:22:19.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:24:49.817+0000] {processor.py:186} INFO - Started process (PID=13646) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:24:49.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:24:49.819+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:24:49.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:24:49.834+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:24:49.834+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:24:49.844+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:24:49.852+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:24:49.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:24:49.860+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:24:49.860+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:24:49.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.054 seconds
+[2024-12-01T07:25:20.474+0000] {processor.py:186} INFO - Started process (PID=13747) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:25:20.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:25:20.476+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:25:20.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:25:20.490+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:25:20.490+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:25:20.499+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:25:20.506+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:25:20.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:25:20.514+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:25:20.514+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:25:20.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T07:25:51.156+0000] {processor.py:186} INFO - Started process (PID=13848) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:25:51.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:25:51.160+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:25:51.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:25:51.172+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:25:51.172+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:25:51.180+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:25:51.186+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:25:51.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:25:51.191+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:25:51.191+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:25:51.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.047 seconds
+[2024-12-01T07:26:21.825+0000] {processor.py:186} INFO - Started process (PID=13948) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:26:21.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:26:21.827+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:26:21.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:26:21.843+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:26:21.843+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:26:21.854+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:26:21.859+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:26:21.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:26:21.866+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:26:21.866+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:26:21.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:26:52.539+0000] {processor.py:186} INFO - Started process (PID=14049) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:26:52.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:26:52.541+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:26:52.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:26:52.555+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:26:52.555+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:26:52.563+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:26:52.571+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:26:52.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:26:52.579+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:26:52.579+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:26:52.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:27:23.209+0000] {processor.py:186} INFO - Started process (PID=14150) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:27:23.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:27:23.211+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:27:23.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:27:23.223+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:27:23.223+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:27:23.231+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:27:23.238+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:27:23.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:27:23.247+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:27:23.247+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:27:23.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.048 seconds
+[2024-12-01T07:27:53.882+0000] {processor.py:186} INFO - Started process (PID=14251) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:27:53.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:27:53.885+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:27:53.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:27:53.900+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:27:53.900+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:27:53.916+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:27:53.921+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:27:53.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:27:53.927+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:27:53.927+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:27:53.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.057 seconds
+[2024-12-01T07:28:24.559+0000] {processor.py:186} INFO - Started process (PID=14352) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:28:24.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:28:24.560+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:28:24.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:28:24.575+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:28:24.575+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:28:24.584+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:28:24.591+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:28:24.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:28:24.600+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:28:24.600+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:28:24.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T07:28:55.223+0000] {processor.py:186} INFO - Started process (PID=14453) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:28:55.223+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:28:55.224+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:28:55.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:28:55.241+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:28:55.241+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:28:55.249+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:28:55.255+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:28:55.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:28:55.264+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:28:55.264+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:28:55.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T07:29:25.899+0000] {processor.py:186} INFO - Started process (PID=14554) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:29:25.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:29:25.901+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:29:25.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:29:25.915+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:29:25.915+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:29:25.923+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:29:25.930+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:29:25.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:29:25.939+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:29:25.939+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:29:25.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:29:56.578+0000] {processor.py:186} INFO - Started process (PID=14655) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:29:56.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:29:56.579+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:29:56.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:29:56.595+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:29:56.595+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:29:56.604+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:29:56.610+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:29:56.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:29:56.620+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:29:56.620+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:29:56.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T07:30:27.339+0000] {processor.py:186} INFO - Started process (PID=14756) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:30:27.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:30:27.340+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:30:27.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:30:27.356+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:30:27.356+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:30:27.364+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:30:27.371+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:30:27.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:30:27.378+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:30:27.378+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:30:27.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T07:30:58.084+0000] {processor.py:186} INFO - Started process (PID=14857) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:30:58.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:30:58.085+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:30:58.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:30:58.100+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:30:58.100+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:30:58.109+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:30:58.116+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:30:58.116+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:30:58.123+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:30:58.123+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:30:58.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:31:28.865+0000] {processor.py:186} INFO - Started process (PID=14958) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:31:28.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:31:28.867+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:31:28.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:31:28.883+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:31:28.883+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:31:28.891+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:31:28.901+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:31:28.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:31:28.907+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:31:28.907+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:31:28.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.054 seconds
+[2024-12-01T07:31:59.614+0000] {processor.py:186} INFO - Started process (PID=15059) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:31:59.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:31:59.616+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:31:59.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:31:59.632+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:31:59.632+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:31:59.641+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:31:59.648+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:31:59.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:31:59.654+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:31:59.654+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:31:59.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:32:30.335+0000] {processor.py:186} INFO - Started process (PID=15160) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:32:30.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:32:30.337+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:32:30.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:32:30.353+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:32:30.353+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:32:30.363+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:32:30.371+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:32:30.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:32:30.379+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:32:30.379+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:32:30.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.057 seconds
+[2024-12-01T07:33:01.037+0000] {processor.py:186} INFO - Started process (PID=15261) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:33:01.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:33:01.039+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:33:01.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:33:01.052+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:33:01.052+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:33:01.063+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:33:01.069+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:33:01.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:33:01.076+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:33:01.076+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:33:01.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:33:31.735+0000] {processor.py:186} INFO - Started process (PID=15362) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:33:31.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:33:31.738+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:33:31.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:33:31.753+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:33:31.753+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:33:31.763+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:33:31.770+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:33:31.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:33:31.776+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:33:31.776+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:33:31.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:34:02.480+0000] {processor.py:186} INFO - Started process (PID=15463) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:34:02.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:34:02.483+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:34:02.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:34:02.499+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:34:02.499+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:34:02.508+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:34:02.514+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:34:02.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:34:02.522+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:34:02.522+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:34:02.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:34:33.107+0000] {processor.py:186} INFO - Started process (PID=15564) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:34:33.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:34:33.108+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:34:33.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:34:33.123+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:34:33.122+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:34:33.131+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:34:33.142+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:34:33.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:34:33.148+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:34:33.148+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:34:33.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T07:35:03.915+0000] {processor.py:186} INFO - Started process (PID=15665) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:35:03.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:35:03.917+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:35:03.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:35:03.933+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:35:03.933+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:35:03.946+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:35:03.954+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:35:03.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:35:03.962+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:35:03.962+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:35:03.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.060 seconds
+[2024-12-01T07:35:34.680+0000] {processor.py:186} INFO - Started process (PID=15766) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:35:34.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:35:34.682+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:35:34.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:35:34.699+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:35:34.699+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:35:34.711+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:35:34.718+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:35:34.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:35:34.725+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:35:34.725+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:35:34.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.058 seconds
+[2024-12-01T07:36:05.385+0000] {processor.py:186} INFO - Started process (PID=15867) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:36:05.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:36:05.386+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:36:05.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:36:05.399+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:36:05.399+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:36:05.407+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:36:05.414+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:36:05.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:36:05.421+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:36:05.420+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:36:05.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.048 seconds
+[2024-12-01T07:36:36.115+0000] {processor.py:186} INFO - Started process (PID=15968) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:36:36.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:36:36.116+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:36:36.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:36:36.129+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:36:36.129+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:36:36.137+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:36:36.144+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:36:36.144+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:36:36.152+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:36:36.152+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:36:36.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.054 seconds
+[2024-12-01T07:37:06.804+0000] {processor.py:186} INFO - Started process (PID=16069) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:37:06.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:37:06.805+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:37:06.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:37:06.816+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:37:06.816+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:37:06.824+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:37:06.830+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:37:06.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:37:06.835+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:37:06.835+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:37:06.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.040 seconds
+[2024-12-01T07:37:37.529+0000] {processor.py:186} INFO - Started process (PID=16169) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:37:37.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:37:37.532+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:37:37.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:37:37.550+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:37:37.550+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:37:37.562+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:37:37.569+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:37:37.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:37:37.576+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:37:37.575+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:37:37.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.061 seconds
+[2024-12-01T07:38:08.302+0000] {processor.py:186} INFO - Started process (PID=16271) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:38:08.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:38:08.304+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:38:08.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:38:08.321+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:38:08.321+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:38:08.330+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:38:08.338+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:38:08.337+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:38:08.347+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:38:08.347+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:38:08.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.057 seconds
+[2024-12-01T07:38:39.026+0000] {processor.py:186} INFO - Started process (PID=16372) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:38:39.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:38:39.028+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:38:39.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:38:39.044+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:38:39.043+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:38:39.053+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:38:39.060+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:38:39.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:38:39.069+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:38:39.069+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:38:39.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.056 seconds
+[2024-12-01T07:39:09.715+0000] {processor.py:186} INFO - Started process (PID=16473) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:39:09.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:39:09.716+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:39:09.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:39:09.730+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:39:09.730+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:39:09.739+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:39:09.746+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:39:09.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:39:09.753+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:39:09.753+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:39:09.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:39:40.459+0000] {processor.py:186} INFO - Started process (PID=16574) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:39:40.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:39:40.461+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:39:40.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:39:40.478+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:39:40.478+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:39:40.490+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:39:40.497+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:39:40.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:39:40.506+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:39:40.506+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:39:40.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.062 seconds
+[2024-12-01T07:40:11.228+0000] {processor.py:186} INFO - Started process (PID=16675) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:40:11.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:40:11.229+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:40:11.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:40:11.247+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:40:11.247+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:40:11.258+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:40:11.264+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:40:11.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:40:11.271+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:40:11.271+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:40:11.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:40:41.939+0000] {processor.py:186} INFO - Started process (PID=16776) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:40:41.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:40:41.943+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:40:41.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:40:41.959+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:40:41.959+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:40:41.971+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:40:41.979+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:40:41.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:40:41.987+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:40:41.987+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:40:41.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.060 seconds
+[2024-12-01T07:41:12.658+0000] {processor.py:186} INFO - Started process (PID=16877) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:41:12.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:41:12.659+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:41:12.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:41:12.674+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:41:12.673+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:41:12.687+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:41:12.693+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:41:12.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:41:12.700+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:41:12.700+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:41:12.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:41:43.373+0000] {processor.py:186} INFO - Started process (PID=16978) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:41:43.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:41:43.375+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:41:43.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:41:43.389+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:41:43.389+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:41:43.398+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:41:43.405+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:41:43.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:41:43.411+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:41:43.411+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:41:43.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T07:42:14.083+0000] {processor.py:186} INFO - Started process (PID=17079) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:42:14.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:42:14.086+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:42:14.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:42:14.100+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:42:14.100+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:42:14.112+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:42:14.118+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:42:14.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:42:14.125+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:42:14.125+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:42:14.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T07:42:44.855+0000] {processor.py:186} INFO - Started process (PID=17180) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:42:44.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:42:44.857+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:42:44.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:42:44.873+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:42:44.873+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:42:44.884+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:42:44.889+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:42:44.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:42:44.895+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:42:44.895+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:42:44.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:43:15.628+0000] {processor.py:186} INFO - Started process (PID=17281) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:43:15.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:43:15.630+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:43:15.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:43:15.643+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:43:15.643+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:43:15.650+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:43:15.656+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:43:15.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:43:15.662+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:43:15.662+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:43:15.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.046 seconds
+[2024-12-01T07:43:46.396+0000] {processor.py:186} INFO - Started process (PID=17388) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:43:46.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:43:46.398+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:43:46.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:43:46.417+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:43:46.416+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:43:46.428+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:43:46.435+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:43:46.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:43:46.441+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:43:46.441+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:43:46.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.058 seconds
+[2024-12-01T07:44:17.193+0000] {processor.py:186} INFO - Started process (PID=17489) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:44:17.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:44:17.195+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:44:17.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:44:17.211+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:44:17.211+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:44:17.220+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:44:17.227+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:44:17.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:44:17.234+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:44:17.233+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:44:17.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:44:47.931+0000] {processor.py:186} INFO - Started process (PID=17590) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:44:47.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:44:47.933+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:44:47.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:44:47.951+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:44:47.951+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:44:47.965+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:44:47.971+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:44:47.971+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:44:47.978+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:44:47.978+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:44:47.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.060 seconds
+[2024-12-01T07:45:18.699+0000] {processor.py:186} INFO - Started process (PID=17691) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:45:18.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:45:18.700+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:45:18.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:45:18.714+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:45:18.714+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:45:18.723+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:45:18.730+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:45:18.730+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:45:18.738+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:45:18.738+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:45:18.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:45:49.432+0000] {processor.py:186} INFO - Started process (PID=17792) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:45:49.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:45:49.433+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:45:49.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:45:49.447+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:45:49.446+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:45:49.455+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:45:49.461+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:45:49.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:45:49.471+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:45:49.471+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:45:49.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.049 seconds
+[2024-12-01T07:46:20.165+0000] {processor.py:186} INFO - Started process (PID=17893) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:46:20.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:46:20.169+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:46:20.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:46:20.185+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:46:20.185+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:46:20.195+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:46:20.203+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:46:20.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:46:20.212+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:46:20.212+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:46:20.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.059 seconds
+[2024-12-01T07:46:50.946+0000] {processor.py:186} INFO - Started process (PID=17994) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:46:50.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:46:50.948+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:46:50.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:46:50.964+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:46:50.964+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:46:50.972+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:46:50.979+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:46:50.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:46:50.985+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:46:50.985+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:46:50.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:47:21.658+0000] {processor.py:186} INFO - Started process (PID=18095) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:47:21.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:47:21.660+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:47:21.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:47:21.677+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:47:21.677+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:47:21.689+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:47:21.697+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:47:21.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:47:21.704+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:47:21.703+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:47:21.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.059 seconds
+[2024-12-01T07:47:52.302+0000] {processor.py:186} INFO - Started process (PID=18196) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:47:52.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:47:52.305+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:47:52.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:47:52.318+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:47:52.318+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:47:52.326+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:47:52.332+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:47:52.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:47:52.341+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:47:52.341+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:47:52.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:48:22.988+0000] {processor.py:186} INFO - Started process (PID=18297) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:48:22.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:48:22.990+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:48:22.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:48:23.002+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:48:23.002+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:48:23.010+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:48:23.017+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:48:23.017+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:48:23.023+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:48:23.023+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:48:23.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.047 seconds
+[2024-12-01T07:48:53.673+0000] {processor.py:186} INFO - Started process (PID=18398) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:48:53.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:48:53.675+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:48:53.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:48:53.691+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:48:53.691+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:48:53.701+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:48:53.709+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:48:53.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:48:53.716+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:48:53.716+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:48:53.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.056 seconds
+[2024-12-01T07:49:24.416+0000] {processor.py:186} INFO - Started process (PID=18499) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:49:24.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:49:24.419+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:49:24.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:49:24.445+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:49:24.445+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:49:24.460+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:49:24.470+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:49:24.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:49:24.558+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:49:24.558+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:49:24.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.166 seconds
+[2024-12-01T07:49:55.278+0000] {processor.py:186} INFO - Started process (PID=18600) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:49:55.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:49:55.279+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:49:55.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:49:55.294+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:49:55.294+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:49:55.302+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:49:55.310+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:49:55.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:49:55.317+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:49:55.317+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:49:55.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:50:25.954+0000] {processor.py:186} INFO - Started process (PID=18701) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:50:25.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:50:25.956+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:50:25.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:50:25.975+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:50:25.975+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:50:25.988+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:50:25.994+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:50:25.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:50:26.000+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:50:26.000+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:50:26.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.060 seconds
+[2024-12-01T07:50:56.696+0000] {processor.py:186} INFO - Started process (PID=18802) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:50:56.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:50:56.698+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:50:56.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:50:56.711+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:50:56.711+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:50:56.721+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:50:56.728+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:50:56.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:50:56.736+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:50:56.736+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:50:56.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.054 seconds
+[2024-12-01T07:51:27.454+0000] {processor.py:186} INFO - Started process (PID=18903) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:51:27.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:51:27.456+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:51:27.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:51:27.472+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:51:27.472+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:51:27.481+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:51:27.488+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:51:27.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:51:27.494+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:51:27.494+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:51:27.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T07:51:58.171+0000] {processor.py:186} INFO - Started process (PID=19004) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:51:58.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:51:58.173+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:51:58.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:51:58.188+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:51:58.187+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:51:58.195+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:51:58.202+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:51:58.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:51:58.208+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:51:58.208+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:51:58.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.049 seconds
+[2024-12-01T07:52:28.857+0000] {processor.py:186} INFO - Started process (PID=19105) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:52:28.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:52:28.858+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:52:28.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:52:28.874+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:52:28.874+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:52:28.885+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:52:28.891+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:52:28.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:52:28.896+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:52:28.896+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:52:28.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.049 seconds
+[2024-12-01T07:52:59.573+0000] {processor.py:186} INFO - Started process (PID=19205) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:52:59.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:52:59.576+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:52:59.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:52:59.601+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:52:59.601+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:52:59.614+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:52:59.621+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:52:59.621+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:52:59.626+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:52:59.626+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:52:59.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.065 seconds
+[2024-12-01T07:53:30.324+0000] {processor.py:186} INFO - Started process (PID=19306) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:53:30.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:53:30.325+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:53:30.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:53:30.338+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:53:30.338+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:53:30.347+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:53:30.353+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:53:30.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:53:30.362+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:53:30.362+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:53:30.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.048 seconds
+[2024-12-01T07:54:01.028+0000] {processor.py:186} INFO - Started process (PID=19407) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:54:01.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:54:01.030+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:54:01.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:54:01.044+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:54:01.044+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:54:01.054+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:54:01.060+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:54:01.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:54:01.069+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:54:01.069+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:54:01.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.054 seconds
+[2024-12-01T07:54:31.760+0000] {processor.py:186} INFO - Started process (PID=19508) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:54:31.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:54:31.763+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:54:31.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:54:31.777+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:54:31.777+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:54:31.787+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:54:31.795+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:54:31.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:54:31.801+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:54:31.801+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:54:31.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:55:02.483+0000] {processor.py:186} INFO - Started process (PID=19609) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:55:02.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:55:02.484+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:55:02.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:55:02.497+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:55:02.497+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:55:02.507+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:55:02.513+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:55:02.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:55:02.519+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:55:02.519+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:55:02.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.049 seconds
+[2024-12-01T07:55:33.151+0000] {processor.py:186} INFO - Started process (PID=19710) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:55:33.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:55:33.153+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:55:33.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:55:33.170+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:55:33.169+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:55:33.179+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:55:33.186+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:55:33.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:55:33.192+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:55:33.192+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:55:33.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.054 seconds
+[2024-12-01T07:56:03.931+0000] {processor.py:186} INFO - Started process (PID=19811) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:56:03.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:56:03.934+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:56:03.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:56:03.948+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:56:03.948+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:56:03.959+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:56:03.965+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:56:03.965+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:56:03.974+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:56:03.974+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:56:03.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.057 seconds
+[2024-12-01T07:56:34.614+0000] {processor.py:186} INFO - Started process (PID=19912) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:56:34.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:56:34.616+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:56:34.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:56:34.634+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:56:34.634+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:56:34.643+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:56:34.651+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:56:34.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:56:34.660+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:56:34.660+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:56:34.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.060 seconds
+[2024-12-01T07:57:05.337+0000] {processor.py:186} INFO - Started process (PID=20013) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:57:05.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:57:05.339+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:57:05.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:57:05.353+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:57:05.353+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:57:05.362+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:57:05.369+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:57:05.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:57:05.377+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:57:05.377+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:57:05.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T07:57:36.073+0000] {processor.py:186} INFO - Started process (PID=20114) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:57:36.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:57:36.076+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:57:36.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:57:36.092+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:57:36.091+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:57:36.101+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:57:36.108+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:57:36.107+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:57:36.114+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:57:36.114+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:57:36.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T07:58:06.752+0000] {processor.py:186} INFO - Started process (PID=20215) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:58:06.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:58:06.754+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:58:06.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:58:06.767+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:58:06.766+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:58:06.777+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:58:06.783+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:58:06.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:58:06.789+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:58:06.789+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:58:06.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T07:58:37.411+0000] {processor.py:186} INFO - Started process (PID=20315) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:58:37.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:58:37.413+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:58:37.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:58:37.434+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:58:37.434+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:58:37.449+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:58:37.457+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:58:37.457+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:58:37.464+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:58:37.464+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:58:37.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.067 seconds
+[2024-12-01T07:59:08.162+0000] {processor.py:186} INFO - Started process (PID=20416) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:59:08.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:59:08.164+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:59:08.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:59:08.178+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:59:08.178+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:59:08.190+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:59:08.198+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:59:08.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:59:08.207+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:59:08.206+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:59:08.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.057 seconds
+[2024-12-01T07:59:38.931+0000] {processor.py:186} INFO - Started process (PID=20517) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:59:38.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T07:59:38.933+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:59:38.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:59:38.950+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:59:38.950+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T07:59:38.961+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T07:59:38.967+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:59:38.966+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T07:59:38.972+0000] {logging_mixin.py:190} INFO - [2024-12-01T07:59:38.972+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T07:59:38.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.053 seconds
+[2024-12-01T08:00:09.702+0000] {processor.py:186} INFO - Started process (PID=20618) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:00:09.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:00:09.704+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:00:09.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:00:09.719+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:00:09.719+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:00:09.731+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:00:09.738+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:00:09.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:00:09.745+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:00:09.744+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:00:09.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.056 seconds
+[2024-12-01T08:00:40.456+0000] {processor.py:186} INFO - Started process (PID=20719) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:00:40.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:00:40.459+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:00:40.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:00:40.474+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:00:40.474+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:00:40.482+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:00:40.488+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:00:40.488+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:00:40.495+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:00:40.495+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:00:40.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T08:01:11.202+0000] {processor.py:186} INFO - Started process (PID=20820) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:01:11.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:01:11.204+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:01:11.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:01:11.218+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:01:11.218+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:01:11.228+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:01:11.235+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:01:11.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:01:11.241+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:01:11.241+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:01:11.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.054 seconds
+[2024-12-01T08:01:41.928+0000] {processor.py:186} INFO - Started process (PID=20921) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:01:41.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:01:41.931+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:01:41.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:01:41.946+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:01:41.946+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:01:41.954+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:01:41.961+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:01:41.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:01:41.967+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:01:41.967+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:01:41.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.050 seconds
+[2024-12-01T08:02:12.601+0000] {processor.py:186} INFO - Started process (PID=21022) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:02:12.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:02:12.604+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:02:12.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:02:12.619+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:02:12.619+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:02:12.628+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:02:12.636+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:02:12.636+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:02:12.642+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:02:12.642+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:02:12.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.054 seconds
+[2024-12-01T08:02:43.365+0000] {processor.py:186} INFO - Started process (PID=21123) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:02:43.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:02:43.367+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:02:43.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:02:43.384+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:02:43.383+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:02:43.392+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:02:43.399+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:02:43.399+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:02:43.405+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:02:43.405+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:02:43.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T08:03:14.006+0000] {processor.py:186} INFO - Started process (PID=21224) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:03:14.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:03:14.007+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:03:14.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:03:14.022+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:03:14.022+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:03:14.033+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:03:14.040+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:03:14.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:03:14.050+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:03:14.050+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:03:14.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.058 seconds
+[2024-12-01T08:03:44.703+0000] {processor.py:186} INFO - Started process (PID=21325) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:03:44.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:03:44.704+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:03:44.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:03:44.718+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:03:44.718+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:03:44.727+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:03:44.733+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:03:44.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:03:44.742+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:03:44.741+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:03:44.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T08:04:15.412+0000] {processor.py:186} INFO - Started process (PID=21426) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:04:15.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:04:15.414+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:04:15.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:04:15.428+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:04:15.428+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:04:15.440+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:04:15.448+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:04:15.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:04:15.454+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:04:15.453+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:04:15.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.051 seconds
+[2024-12-01T08:04:46.110+0000] {processor.py:186} INFO - Started process (PID=21527) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:04:46.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:04:46.112+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:04:46.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:04:46.124+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:04:46.124+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:04:46.135+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:04:46.143+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:04:46.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:04:46.150+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:04:46.149+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:04:46.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T08:05:16.869+0000] {processor.py:186} INFO - Started process (PID=21628) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:05:16.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:05:16.873+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:05:16.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:05:16.889+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:05:16.888+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:05:16.899+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:05:16.906+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:05:16.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:05:16.916+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:05:16.916+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:05:16.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.061 seconds
+[2024-12-01T08:05:47.563+0000] {processor.py:186} INFO - Started process (PID=21729) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:05:47.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:05:47.565+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:05:47.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:05:47.577+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:05:47.577+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:05:47.591+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:05:47.597+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:05:47.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:05:47.604+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:05:47.604+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:05:47.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.052 seconds
+[2024-12-01T08:06:18.252+0000] {processor.py:186} INFO - Started process (PID=21835) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:06:18.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:06:18.253+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:06:18.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:06:18.272+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:06:18.271+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:06:18.279+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:06:18.286+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:06:18.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:06:18.294+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:06:18.294+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:06:18.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T08:06:48.886+0000] {processor.py:186} INFO - Started process (PID=21936) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:06:48.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:06:48.889+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:06:48.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:06:48.904+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:06:48.904+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:06:48.914+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:06:48.923+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:06:48.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:06:48.930+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:06:48.930+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:06:48.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.056 seconds
+[2024-12-01T08:07:19.583+0000] {processor.py:186} INFO - Started process (PID=22037) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:07:19.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:07:19.585+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:07:19.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:07:19.600+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:07:19.599+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:07:19.611+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:07:19.623+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:07:19.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:07:19.631+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:07:19.631+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:07:19.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.061 seconds
+[2024-12-01T08:07:50.270+0000] {processor.py:186} INFO - Started process (PID=22138) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:07:50.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:07:50.272+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:07:50.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:07:50.287+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:07:50.287+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:07:50.296+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:07:50.306+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:07:50.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:07:50.313+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:07:50.313+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:07:50.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.055 seconds
+[2024-12-01T08:08:20.955+0000] {processor.py:186} INFO - Started process (PID=22239) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:08:20.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:08:20.956+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:08:20.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:08:20.970+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:08:20.970+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:08:20.979+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:08:20.986+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:08:20.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:08:20.993+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:08:20.993+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:08:21.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.049 seconds
+[2024-12-01T08:26:19.936+0000] {processor.py:186} INFO - Started process (PID=22340) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:26:19.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py for tasks to queue
+[2024-12-01T08:26:19.939+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:26:19.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:26:19.960+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:26:19.960+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2024-12-01T08:26:19.975+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK2' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py
+[2024-12-01T08:26:19.984+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:26:19.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T08:26:19.994+0000] {logging_mixin.py:190} INFO - [2024-12-01T08:26:19.993+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK2 to None, run_after=None
+[2024-12-01T08:26:20.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK2.py took 0.074 seconds

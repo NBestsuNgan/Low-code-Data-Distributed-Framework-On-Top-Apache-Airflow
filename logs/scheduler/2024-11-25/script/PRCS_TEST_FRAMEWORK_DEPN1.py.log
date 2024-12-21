@@ -1,0 +1,874 @@
+[2024-11-25T17:43:49.379+0000] {processor.py:186} INFO - Started process (PID=49741) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:49.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:43:49.380+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:43:49.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:49.386+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:43:49.384+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 29, in <module>
+    recieve_param >> show_bash
+                     ^^^^^^^^^
+NameError: name 'show_bash' is not defined
+[2024-11-25T17:43:49.387+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:49.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.019 seconds
+[2024-11-25T17:43:51.400+0000] {processor.py:186} INFO - Started process (PID=49746) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:51.401+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:43:51.401+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:43:51.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:51.403+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:43:51.403+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 27
+    show_bash = 
+                ^
+SyntaxError: invalid syntax
+[2024-11-25T17:43:51.403+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:51.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.013 seconds
+[2024-11-25T17:43:54.462+0000] {processor.py:186} INFO - Started process (PID=49756) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:54.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:43:54.464+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:43:54.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:54.475+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:43:54.474+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 31, in <module>
+    recieve_param >> show_bash
+    ~~~~~~~~~~~~~~^^~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 217, in _set_relatives
+    for task in relatives:
+                ^^^^^^^^^
+TypeError: 'property' object is not iterable
+[2024-11-25T17:43:54.475+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:54.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.031 seconds
+[2024-11-25T17:43:57.838+0000] {processor.py:186} INFO - Started process (PID=49776) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:57.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:43:57.839+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:43:57.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:57.844+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:43:57.843+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 27, in <module>
+    show_bash = BashOperator()
+                ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-11-25T17:43:57.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:43:57.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.018 seconds
+[2024-11-25T17:44:00.897+0000] {processor.py:186} INFO - Started process (PID=49911) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:00.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:00.899+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:00.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:00.910+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:00.909+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 27, in <module>
+    show_bash = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 967, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'Run_bash_to_python_file' has already been added to the DAG
+[2024-11-25T17:44:00.911+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:00.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.031 seconds
+[2024-11-25T17:44:03.943+0000] {processor.py:186} INFO - Started process (PID=49916) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:03.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:03.944+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:03.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:03.954+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:03.953+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 27, in <module>
+    show_bash = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 967, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'Run_bash_to_python_file' has already been added to the DAG
+[2024-11-25T17:44:03.954+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:03.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.026 seconds
+[2024-11-25T17:44:27.124+0000] {processor.py:186} INFO - Started process (PID=50132) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:27.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:27.126+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:27.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:27.135+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:27.133+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 32, in <module>
+    show_bash = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 967, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'Run_bash_to_python_file' has already been added to the DAG
+[2024-11-25T17:44:27.135+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:27.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.028 seconds
+[2024-11-25T17:44:31.451+0000] {processor.py:186} INFO - Started process (PID=50282) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:31.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:31.452+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:31.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:31.462+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:31.460+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 32, in <module>
+    show_bash = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 967, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'Run_bash_to_python_file' has already been added to the DAG
+[2024-11-25T17:44:31.463+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:31.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.028 seconds
+[2024-11-25T17:44:33.487+0000] {processor.py:186} INFO - Started process (PID=50287) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:33.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:33.489+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:33.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:33.495+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:33.494+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 18
+    print(context["dag_run"].conf # context["dag_run"].conf = dict
+         ^
+SyntaxError: '(' was never closed
+[2024-11-25T17:44:33.495+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:33.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.025 seconds
+[2024-11-25T17:44:41.591+0000] {processor.py:186} INFO - Started process (PID=50297) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:41.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:41.593+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:41.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:41.603+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:41.601+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 32, in <module>
+    show_bash = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 967, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'Run_bash_to_python_file' has already been added to the DAG
+[2024-11-25T17:44:41.603+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:41.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.029 seconds
+[2024-11-25T17:44:44.639+0000] {processor.py:186} INFO - Started process (PID=50308) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:44.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:44.641+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:44.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:44.651+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:44.649+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 31, in <module>
+    show_bash = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 967, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'Run_bash_to_python_file' has already been added to the DAG
+[2024-11-25T17:44:44.651+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:44.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.027 seconds
+[2024-11-25T17:44:46.339+0000] {processor.py:186} INFO - Started process (PID=50401) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:46.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:46.341+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:46.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:46.351+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:46.350+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 31, in <module>
+    show_bash = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 967, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'Run_bash_to_python_file' has already been added to the DAG
+[2024-11-25T17:44:46.351+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:46.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.021 seconds
+[2024-11-25T17:44:53.081+0000] {processor.py:186} INFO - Started process (PID=50513) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:53.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:53.083+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:53.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:53.090+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:53.089+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 31, in <module>
+    show_bash = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 166, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 501, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 967, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'Run_bash_to_python_file' has already been added to the DAG
+[2024-11-25T17:44:53.091+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:53.099+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.022 seconds
+[2024-11-25T17:44:55.105+0000] {processor.py:186} INFO - Started process (PID=50523) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:55.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:55.106+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:55.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:55.110+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:55.110+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 33
+    bash_command=f"echo {}"
+                         ^
+SyntaxError: f-string: valid expression required before '}'
+[2024-11-25T17:44:55.111+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:55.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.018 seconds
+[2024-11-25T17:44:57.146+0000] {processor.py:186} INFO - Started process (PID=50528) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:57.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:57.147+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:57.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:57.157+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:57.156+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 33, in <module>
+    bash_command=f"echo {contr}"
+                         ^^^^^
+NameError: name 'contr' is not defined
+[2024-11-25T17:44:57.158+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:57.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.025 seconds
+[2024-11-25T17:44:59.179+0000] {processor.py:186} INFO - Started process (PID=50533) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:59.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:44:59.180+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:59.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:59.199+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:44:59.195+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 33, in <module>
+    bash_command=f"echo {controller}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:44:59.201+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:44:59.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.038 seconds
+[2024-11-25T17:45:06.472+0000] {processor.py:186} INFO - Started process (PID=50683) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:06.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:45:06.474+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:06.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:06.493+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:06.487+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 33, in <module>
+    bash_command=f"echo {controller}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:45:06.496+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:06.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.040 seconds
+[2024-11-25T17:45:08.540+0000] {processor.py:186} INFO - Started process (PID=50693) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:08.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:45:08.541+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:08.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:08.549+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:08.548+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 26, in <module>
+    recieve_param = pyth(
+                    ^^^^
+NameError: name 'pyth' is not defined
+[2024-11-25T17:45:08.550+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:08.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.028 seconds
+[2024-11-25T17:45:09.570+0000] {processor.py:186} INFO - Started process (PID=50698) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:09.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:45:09.572+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:09.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:09.580+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:09.578+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 26, in <module>
+    recieve_param = python(
+                    ^^^^^^
+NameError: name 'python' is not defined
+[2024-11-25T17:45:09.580+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:09.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.027 seconds
+[2024-11-25T17:45:20.257+0000] {processor.py:186} INFO - Started process (PID=50904) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:20.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:45:20.261+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:20.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:20.269+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:20.268+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 27, in <module>
+    recieve_param = python(
+                    ^^^^^^
+NameError: name 'python' is not defined
+[2024-11-25T17:45:20.270+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:20.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.031 seconds
+[2024-11-25T17:45:25.331+0000] {processor.py:186} INFO - Started process (PID=50914) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:25.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:45:25.332+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:25.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:25.337+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:25.336+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 27, in <module>
+    recieve_param = PythonOperator(
+                    ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 484, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2024-11-25T17:45:25.337+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:25.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.014 seconds
+[2024-11-25T17:45:42.756+0000] {processor.py:186} INFO - Started process (PID=51069) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:42.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:45:42.758+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:42.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:42.769+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:42.766+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 30, in <module>
+    python_callable=run_this_func,
+                    ^^^^^^^^^^^^^
+NameError: name 'run_this_func' is not defined
+[2024-11-25T17:45:42.772+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:42.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.029 seconds
+[2024-11-25T17:45:44.795+0000] {processor.py:186} INFO - Started process (PID=51080) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:44.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:45:44.797+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:44.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:44.804+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:44.802+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 30, in <module>
+    python_callable=run_this_func,
+                    ^^^^^^^^^^^^^
+NameError: name 'run_this_func' is not defined
+[2024-11-25T17:45:44.807+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:44.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.023 seconds
+[2024-11-25T17:45:46.837+0000] {processor.py:186} INFO - Started process (PID=51085) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:46.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:45:46.839+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:46.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:46.851+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:45:46.849+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:45:46.853+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:45:46.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.033 seconds
+[2024-11-25T17:46:17.115+0000] {processor.py:186} INFO - Started process (PID=51446) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:17.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:46:17.117+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:46:17.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:17.131+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:46:17.129+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:46:17.134+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:17.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.036 seconds
+[2024-11-25T17:46:27.835+0000] {processor.py:186} INFO - Started process (PID=51651) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:27.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:46:27.837+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:46:27.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:27.842+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:46:27.842+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35
+    bash_command=f"echo {controller[]}"
+                         ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-11-25T17:46:27.843+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:27.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.017 seconds
+[2024-11-25T17:46:32.904+0000] {processor.py:186} INFO - Started process (PID=51656) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:32.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:46:32.905+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:46:32.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:32.924+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:46:32.922+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:46:32.926+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:32.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.037 seconds
+[2024-11-25T17:46:40.644+0000] {processor.py:186} INFO - Started process (PID=51811) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:40.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:46:40.645+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:46:40.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:40.744+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:46:40.742+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:46:40.745+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:46:40.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.111 seconds
+[2024-11-25T17:47:10.985+0000] {processor.py:186} INFO - Started process (PID=52172) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:47:10.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:47:10.987+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:47:10.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:47:10.996+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:47:10.994+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:47:10.998+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:47:11.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.029 seconds
+[2024-11-25T17:47:41.330+0000] {processor.py:186} INFO - Started process (PID=52533) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:47:41.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:47:41.332+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:47:41.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:47:41.342+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:47:41.339+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:47:41.344+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:47:41.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.031 seconds
+[2024-11-25T17:48:11.920+0000] {processor.py:186} INFO - Started process (PID=52934) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:48:11.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:48:11.921+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:48:11.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:48:11.932+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:48:11.929+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:48:11.934+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:48:11.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.028 seconds
+[2024-11-25T17:48:42.226+0000] {processor.py:186} INFO - Started process (PID=53300) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:48:42.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:48:42.228+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:48:42.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:48:42.237+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:48:42.234+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:48:42.239+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:48:42.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.028 seconds
+[2024-11-25T17:49:12.621+0000] {processor.py:186} INFO - Started process (PID=53661) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:49:12.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:49:12.623+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:49:12.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:49:12.633+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:49:12.630+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:49:12.635+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:49:12.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.029 seconds
+[2024-11-25T17:49:29.890+0000] {processor.py:186} INFO - Started process (PID=53867) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:49:29.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:49:29.891+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:49:29.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:49:29.900+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:49:29.898+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:49:29.902+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:49:29.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.024 seconds
+[2024-11-25T17:50:00.400+0000] {processor.py:186} INFO - Started process (PID=54228) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:00.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:50:00.403+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:00.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:00.413+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:00.411+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:50:00.415+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:00.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.028 seconds
+[2024-11-25T17:50:30.607+0000] {processor.py:186} INFO - Started process (PID=54589) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:30.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:50:30.608+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:30.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:30.618+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:30.616+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 35, in <module>
+    bash_command=f"echo {controller['prcs_nm']}"
+                         ^^^^^^^^^^
+NameError: name 'controller' is not defined
+[2024-11-25T17:50:30.620+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:30.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.027 seconds
+[2024-11-25T17:50:44.078+0000] {processor.py:186} INFO - Started process (PID=54749) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:44.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:50:44.079+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:44.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:44.090+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:44.088+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py", line 40, in <module>
+    recieve_param >> show_bash
+                     ^^^^^^^^^
+NameError: name 'show_bash' is not defined
+[2024-11-25T17:50:44.091+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:44.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.032 seconds
+[2024-11-25T17:50:50.174+0000] {processor.py:186} INFO - Started process (PID=54760) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:50.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:50:50.176+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:50.187+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:50:50.235+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.235+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:PRCS_TEST_FRAMEWORK_DEPN1
+[2024-11-25T17:50:50.238+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.238+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:PRCS_TEST_FRAMEWORK_DEPN1
+[2024-11-25T17:50:50.240+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.240+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:PRCS_TEST_FRAMEWORK_DEPN1
+[2024-11-25T17:50:50.241+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.241+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:PRCS_TEST_FRAMEWORK_DEPN1
+[2024-11-25T17:50:50.243+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.243+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:PRCS_TEST_FRAMEWORK_DEPN1
+[2024-11-25T17:50:50.244+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.244+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:PRCS_TEST_FRAMEWORK_DEPN1
+[2024-11-25T17:50:50.246+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.245+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:PRCS_TEST_FRAMEWORK_DEPN1
+[2024-11-25T17:50:50.246+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.246+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:50:50.250+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.250+0000] {dag.py:3262} INFO - Creating ORM DAG for PRCS_TEST_FRAMEWORK_DEPN1
+[2024-11-25T17:50:50.254+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:50:50.254+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:50:50.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.091 seconds
+[2024-11-25T17:51:20.466+0000] {processor.py:186} INFO - Started process (PID=55121) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:51:20.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:51:20.468+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:51:20.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:51:20.489+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:51:20.500+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:51:20.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:51:20.516+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:51:20.516+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:51:20.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.063 seconds
+[2024-11-25T17:51:51.141+0000] {processor.py:186} INFO - Started process (PID=55488) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:51:51.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:51:51.144+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:51:51.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:51:51.155+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:51:51.167+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:51:51.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:51:51.179+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:51:51.179+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:51:51.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.052 seconds
+[2024-11-25T17:52:21.674+0000] {processor.py:186} INFO - Started process (PID=55857) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:52:21.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:52:21.676+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:52:21.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:52:21.686+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:52:21.698+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:52:21.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:52:21.708+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:52:21.708+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:52:21.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.046 seconds
+[2024-11-25T17:52:52.031+0000] {processor.py:186} INFO - Started process (PID=56224) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:52:52.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:52:52.033+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:52:52.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:52:52.043+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:52:52.055+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:52:52.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:52:52.067+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:52:52.067+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:52:52.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.048 seconds
+[2024-11-25T17:53:22.582+0000] {processor.py:186} INFO - Started process (PID=56590) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:53:22.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:53:22.583+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:53:22.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:53:22.588+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:53:22.597+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:53:22.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:53:22.607+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:53:22.607+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:53:22.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.034 seconds
+[2024-11-25T17:53:53.123+0000] {processor.py:186} INFO - Started process (PID=56954) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:53:53.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:53:53.126+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:53:53.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:53:53.134+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:53:53.148+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:53:53.148+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:53:53.184+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:53:53.184+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:53:53.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.076 seconds
+[2024-11-25T17:54:23.452+0000] {processor.py:186} INFO - Started process (PID=57315) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:54:23.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:54:23.454+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:54:23.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:54:23.462+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:54:23.474+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:54:23.474+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:54:23.484+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:54:23.484+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:54:23.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.043 seconds
+[2024-11-25T17:54:53.773+0000] {processor.py:186} INFO - Started process (PID=57677) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:54:53.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:54:53.775+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:54:53.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:54:53.786+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:54:53.796+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:54:53.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:54:53.806+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:54:53.805+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:54:53.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.044 seconds
+[2024-11-25T17:55:24.095+0000] {processor.py:186} INFO - Started process (PID=58038) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:55:24.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:55:24.097+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:55:24.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:55:24.107+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:55:24.121+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:55:24.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:55:24.131+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:55:24.131+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:55:24.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.048 seconds
+[2024-11-25T17:55:54.607+0000] {processor.py:186} INFO - Started process (PID=58420) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:55:54.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:55:54.608+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:55:54.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:55:54.617+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:55:54.629+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:55:54.629+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:55:54.639+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:55:54.639+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:55:54.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.045 seconds
+[2024-11-25T17:56:24.984+0000] {processor.py:186} INFO - Started process (PID=58781) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:56:24.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:56:24.987+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:56:24.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:56:24.997+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:56:25.006+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:56:25.006+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:56:25.016+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:56:25.015+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:56:25.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.044 seconds
+[2024-11-25T17:56:55.401+0000] {processor.py:186} INFO - Started process (PID=59147) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:56:55.401+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:56:55.402+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:56:55.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:56:55.410+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:56:55.423+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:56:55.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:56:55.434+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:56:55.434+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:56:55.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.046 seconds
+[2024-11-25T17:57:26.083+0000] {processor.py:186} INFO - Started process (PID=59511) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:57:26.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:57:26.085+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:57:26.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:57:26.092+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:57:26.101+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:57:26.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:57:26.111+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:57:26.111+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:57:26.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.039 seconds
+[2024-11-25T17:57:56.844+0000] {processor.py:186} INFO - Started process (PID=59872) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:57:56.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:57:56.846+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:57:56.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:57:56.855+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:57:56.867+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:57:56.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:57:56.878+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:57:56.878+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:57:56.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.047 seconds
+[2024-11-25T17:58:27.544+0000] {processor.py:186} INFO - Started process (PID=60233) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:58:27.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:58:27.546+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:58:27.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:58:27.553+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:58:27.564+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:58:27.564+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:58:27.575+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:58:27.575+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:58:27.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.042 seconds
+[2024-11-25T17:58:58.185+0000] {processor.py:186} INFO - Started process (PID=60594) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:58:58.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:58:58.186+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:58:58.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:58:58.191+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:58:58.198+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:58:58.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:58:58.206+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:58:58.206+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:58:58.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.028 seconds
+[2024-11-25T17:59:28.678+0000] {processor.py:186} INFO - Started process (PID=60955) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:59:28.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:59:28.679+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:59:28.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:59:28.684+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:59:28.692+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:59:28.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:59:28.700+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:59:28.700+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:59:28.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.030 seconds
+[2024-11-25T17:59:59.377+0000] {processor.py:186} INFO - Started process (PID=61316) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:59:59.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T17:59:59.379+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:59:59.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:59:59.386+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T17:59:59.395+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:59:59.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T17:59:59.405+0000] {logging_mixin.py:190} INFO - [2024-11-25T17:59:59.405+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T17:59:59.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.039 seconds
+[2024-11-25T18:00:29.979+0000] {processor.py:186} INFO - Started process (PID=61677) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:00:29.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:00:29.981+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:00:29.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:00:29.989+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:00:30.001+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:00:30.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:00:30.010+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:00:30.010+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:00:30.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.043 seconds
+[2024-11-25T18:01:00.678+0000] {processor.py:186} INFO - Started process (PID=62038) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:01:00.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:01:00.680+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:01:00.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:01:00.688+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:01:00.699+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:01:00.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:01:00.709+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:01:00.709+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:01:00.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.043 seconds
+[2024-11-25T18:01:31.184+0000] {processor.py:186} INFO - Started process (PID=62399) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:01:31.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:01:31.185+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:01:31.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:01:31.193+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:01:31.205+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:01:31.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:01:31.214+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:01:31.214+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:01:31.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.042 seconds
+[2024-11-25T18:02:01.718+0000] {processor.py:186} INFO - Started process (PID=62760) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:02:01.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:02:01.720+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:02:01.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:02:01.727+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:02:01.738+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:02:01.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:02:01.748+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:02:01.748+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:02:01.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.040 seconds
+[2024-11-25T18:02:32.174+0000] {processor.py:186} INFO - Started process (PID=63121) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:02:32.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:02:32.175+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:02:32.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:02:32.183+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:02:32.192+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:02:32.192+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:02:32.201+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:02:32.201+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:02:32.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.037 seconds
+[2024-11-25T18:03:02.439+0000] {processor.py:186} INFO - Started process (PID=63482) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:03:02.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:03:02.440+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:03:02.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:03:02.449+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:03:02.459+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:03:02.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:03:02.468+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:03:02.468+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:03:02.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.039 seconds
+[2024-11-25T18:03:32.763+0000] {processor.py:186} INFO - Started process (PID=63843) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:03:32.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:03:32.765+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:03:32.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:03:32.772+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:03:32.783+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:03:32.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:03:32.793+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:03:32.793+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:03:32.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.042 seconds
+[2024-11-25T18:04:03.279+0000] {processor.py:186} INFO - Started process (PID=64204) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:04:03.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:04:03.282+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:04:03.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:04:03.292+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:04:03.303+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:04:03.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:04:03.312+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:04:03.312+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:04:03.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.046 seconds
+[2024-11-25T18:04:34.127+0000] {processor.py:186} INFO - Started process (PID=64630) to work on /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:04:34.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py for tasks to queue
+[2024-11-25T18:04:34.130+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:04:34.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:04:34.143+0000] {processor.py:925} INFO - DAG(s) 'PRCS_TEST_FRAMEWORK_DEPN1' retrieved from /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py
+[2024-11-25T18:04:34.164+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:04:34.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-25T18:04:34.233+0000] {logging_mixin.py:190} INFO - [2024-11-25T18:04:34.233+0000] {dag.py:4180} INFO - Setting next_dagrun for PRCS_TEST_FRAMEWORK_DEPN1 to 2024-11-25 00:00:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-25T18:04:34.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/PRCS_TEST_FRAMEWORK_DEPN1.py took 0.137 seconds

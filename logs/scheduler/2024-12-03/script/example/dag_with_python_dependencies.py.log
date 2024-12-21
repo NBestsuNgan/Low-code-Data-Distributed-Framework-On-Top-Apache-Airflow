@@ -1,0 +1,1120 @@
+[2024-12-03T15:13:12.100+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:13:12.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:13:12.102+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:13:12.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:13:12.104+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:13:12.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:13:42.767+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:13:42.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:13:42.768+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:13:42.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:13:42.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:13:42.774+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:14:13.485+0000] {processor.py:186} INFO - Started process (PID=461) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:14:13.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:14:13.485+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:14:13.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:14:13.487+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:14:13.494+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:14:44.159+0000] {processor.py:186} INFO - Started process (PID=567) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:14:44.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:14:44.160+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:14:44.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:14:44.161+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:14:44.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:15:14.962+0000] {processor.py:186} INFO - Started process (PID=678) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:15:14.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:15:14.963+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:15:14.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:15:14.966+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:15:14.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:15:45.618+0000] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:15:45.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:15:45.620+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:15:45.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:15:45.621+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:15:45.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:16:16.480+0000] {processor.py:186} INFO - Started process (PID=898) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:16:16.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:16:16.481+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:16:16.481+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:16:16.484+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:16:16.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.016 seconds
+[2024-12-03T15:16:47.425+0000] {processor.py:186} INFO - Started process (PID=999) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:16:47.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:16:47.426+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:16:47.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:16:47.427+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:16:47.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:17:18.248+0000] {processor.py:186} INFO - Started process (PID=1100) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:17:18.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:17:18.249+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:17:18.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:17:18.250+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:17:18.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:17:49.014+0000] {processor.py:186} INFO - Started process (PID=1203) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:17:49.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:17:49.015+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:17:49.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:17:49.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:17:49.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:18:19.645+0000] {processor.py:186} INFO - Started process (PID=1304) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:18:19.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:18:19.646+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:18:19.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:18:19.647+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:18:19.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:18:50.275+0000] {processor.py:186} INFO - Started process (PID=1405) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:18:50.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:18:50.276+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:18:50.276+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:18:50.277+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:18:50.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:19:20.936+0000] {processor.py:186} INFO - Started process (PID=1504) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:19:20.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:19:20.938+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:19:20.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:19:20.940+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:19:20.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:19:51.629+0000] {processor.py:186} INFO - Started process (PID=1610) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:19:51.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:19:51.630+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:19:51.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:19:51.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:19:51.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:20:22.534+0000] {processor.py:186} INFO - Started process (PID=1746) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:20:22.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:20:22.535+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:20:22.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:20:22.537+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:20:22.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:20:53.220+0000] {processor.py:186} INFO - Started process (PID=1849) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:20:53.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:20:53.221+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:20:53.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:20:53.222+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:20:53.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:21:23.854+0000] {processor.py:186} INFO - Started process (PID=1948) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:21:23.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:21:23.856+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:21:23.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:21:23.859+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:21:23.866+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.015 seconds
+[2024-12-03T15:21:54.480+0000] {processor.py:186} INFO - Started process (PID=2049) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:21:54.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:21:54.481+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:21:54.481+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:21:54.483+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:21:54.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:22:25.135+0000] {processor.py:186} INFO - Started process (PID=2150) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:22:25.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:22:25.137+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:22:25.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:22:25.140+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:22:25.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:22:55.749+0000] {processor.py:186} INFO - Started process (PID=2251) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:22:55.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:22:55.750+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:22:55.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:22:55.752+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:22:55.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:23:26.376+0000] {processor.py:186} INFO - Started process (PID=2352) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:23:26.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:23:26.377+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:23:26.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:23:26.378+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:23:26.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:23:57.031+0000] {processor.py:186} INFO - Started process (PID=2453) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:23:57.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:23:57.032+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:23:57.032+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:23:57.035+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:23:57.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:24:27.675+0000] {processor.py:186} INFO - Started process (PID=2554) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:24:27.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:24:27.677+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:24:27.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:24:27.680+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:24:27.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.026 seconds
+[2024-12-03T15:24:58.382+0000] {processor.py:186} INFO - Started process (PID=2655) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:24:58.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:24:58.384+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:24:58.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:24:58.386+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:24:58.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:25:28.983+0000] {processor.py:186} INFO - Started process (PID=2761) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:25:28.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:25:28.984+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:25:28.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:25:28.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:25:28.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:25:59.609+0000] {processor.py:186} INFO - Started process (PID=2862) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:25:59.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:25:59.612+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:25:59.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:25:59.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:25:59.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:26:30.222+0000] {processor.py:186} INFO - Started process (PID=2965) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:26:30.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:26:30.223+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:26:30.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:26:30.224+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:26:30.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:27:00.859+0000] {processor.py:186} INFO - Started process (PID=3064) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:27:00.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:27:00.861+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:27:00.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:27:00.862+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:27:00.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:27:31.533+0000] {processor.py:186} INFO - Started process (PID=3165) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:27:31.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:27:31.537+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:27:31.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:27:31.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:27:31.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:28:02.234+0000] {processor.py:186} INFO - Started process (PID=3268) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:28:02.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:28:02.235+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:28:02.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:28:02.236+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:28:02.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.054 seconds
+[2024-12-03T15:28:33.035+0000] {processor.py:186} INFO - Started process (PID=3367) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:28:33.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:28:33.037+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:28:33.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:28:33.038+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:28:33.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:29:03.730+0000] {processor.py:186} INFO - Started process (PID=3468) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:29:03.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:29:03.732+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:29:03.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:29:03.733+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:29:03.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:29:34.439+0000] {processor.py:186} INFO - Started process (PID=3571) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:29:34.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:29:34.440+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:29:34.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:29:34.442+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:29:34.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:30:05.170+0000] {processor.py:186} INFO - Started process (PID=3670) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:30:05.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:30:05.171+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:30:05.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:30:05.173+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:30:05.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:30:35.909+0000] {processor.py:186} INFO - Started process (PID=3771) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:30:35.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:30:35.910+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:30:35.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:30:35.912+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:30:35.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:31:06.624+0000] {processor.py:186} INFO - Started process (PID=3872) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:31:06.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:31:06.626+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:31:06.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:31:06.627+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:31:06.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:31:37.335+0000] {processor.py:186} INFO - Started process (PID=3975) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:31:37.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:31:37.336+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:31:37.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:31:37.337+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:31:37.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:32:08.041+0000] {processor.py:186} INFO - Started process (PID=4074) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:32:08.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:32:08.042+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:32:08.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:32:08.044+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:32:08.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:32:38.716+0000] {processor.py:186} INFO - Started process (PID=4175) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:32:38.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:32:38.717+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:32:38.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:32:38.719+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:32:38.726+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:33:09.416+0000] {processor.py:186} INFO - Started process (PID=4278) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:33:09.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:33:09.417+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:33:09.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:33:09.417+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:33:09.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:33:40.084+0000] {processor.py:186} INFO - Started process (PID=4379) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:33:40.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:33:40.084+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:33:40.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:33:40.086+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:33:40.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:34:10.844+0000] {processor.py:186} INFO - Started process (PID=4480) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:34:10.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:34:10.845+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:34:10.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:34:10.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:34:10.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:34:41.558+0000] {processor.py:186} INFO - Started process (PID=4579) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:34:41.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:34:41.559+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:34:41.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:34:41.562+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:34:41.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:35:12.193+0000] {processor.py:186} INFO - Started process (PID=4682) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:35:12.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:35:12.194+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:35:12.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:35:12.195+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:35:12.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:35:42.927+0000] {processor.py:186} INFO - Started process (PID=4781) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:35:42.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:35:42.927+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:35:42.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:35:42.930+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:35:42.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:36:13.612+0000] {processor.py:186} INFO - Started process (PID=4882) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:36:13.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:36:13.614+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:36:13.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:36:13.615+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:36:13.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:36:44.366+0000] {processor.py:186} INFO - Started process (PID=4983) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:36:44.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:36:44.368+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:36:44.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:36:44.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:36:44.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:37:15.028+0000] {processor.py:186} INFO - Started process (PID=5084) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:37:15.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:37:15.029+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:37:15.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:37:15.031+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:37:15.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:37:45.744+0000] {processor.py:186} INFO - Started process (PID=5187) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:37:45.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:37:45.745+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:37:45.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:37:45.746+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:37:45.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:38:16.534+0000] {processor.py:186} INFO - Started process (PID=5287) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:38:16.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:38:16.536+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:38:16.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:38:16.537+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:38:16.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:38:47.264+0000] {processor.py:186} INFO - Started process (PID=5389) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:38:47.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:38:47.265+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:38:47.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:38:47.266+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:38:47.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:39:18.001+0000] {processor.py:186} INFO - Started process (PID=5488) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:39:18.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:39:18.003+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:39:18.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:39:18.004+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:39:18.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:39:48.723+0000] {processor.py:186} INFO - Started process (PID=5589) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:39:48.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:39:48.724+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:39:48.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:39:48.726+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:39:48.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:40:19.414+0000] {processor.py:186} INFO - Started process (PID=5690) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:40:19.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:40:19.415+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:40:19.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:40:19.418+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:40:19.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:40:50.118+0000] {processor.py:186} INFO - Started process (PID=5791) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:40:50.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:40:50.120+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:40:50.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:40:50.123+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:40:50.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:41:20.774+0000] {processor.py:186} INFO - Started process (PID=5894) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:41:20.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:41:20.775+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:41:20.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:41:20.775+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:41:20.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:41:51.362+0000] {processor.py:186} INFO - Started process (PID=5993) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:41:51.362+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:41:51.363+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:41:51.363+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:41:51.366+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:41:51.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:42:22.055+0000] {processor.py:186} INFO - Started process (PID=6094) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:42:22.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:42:22.057+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:42:22.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:42:22.058+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:42:22.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:42:52.788+0000] {processor.py:186} INFO - Started process (PID=6195) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:42:52.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:42:52.789+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:42:52.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:42:52.790+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:42:52.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:43:23.511+0000] {processor.py:186} INFO - Started process (PID=6296) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:43:23.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:43:23.512+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:43:23.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:43:23.515+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:43:23.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:43:54.204+0000] {processor.py:186} INFO - Started process (PID=6397) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:43:54.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:43:54.205+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:43:54.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:43:54.206+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:43:54.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:44:24.929+0000] {processor.py:186} INFO - Started process (PID=6500) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:44:24.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:44:24.930+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:44:24.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:44:24.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:44:24.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:44:55.669+0000] {processor.py:186} INFO - Started process (PID=6599) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:44:55.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:44:55.671+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:44:55.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:44:55.672+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:44:55.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:45:26.474+0000] {processor.py:186} INFO - Started process (PID=6700) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:45:26.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:45:26.476+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:45:26.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:45:26.477+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:45:26.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:45:57.225+0000] {processor.py:186} INFO - Started process (PID=6803) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:45:57.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:45:57.226+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:45:57.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:45:57.227+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:45:57.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:46:27.897+0000] {processor.py:186} INFO - Started process (PID=6902) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:46:27.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:46:27.899+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:46:27.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:46:27.900+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:46:27.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:46:58.683+0000] {processor.py:186} INFO - Started process (PID=7003) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:46:58.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:46:58.683+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:46:58.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:46:58.685+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:46:58.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:47:29.407+0000] {processor.py:186} INFO - Started process (PID=7104) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:47:29.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:47:29.409+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:47:29.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:47:29.410+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:47:29.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:48:00.192+0000] {processor.py:186} INFO - Started process (PID=7207) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:48:00.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:48:00.193+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:48:00.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:48:00.194+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:48:00.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:48:30.973+0000] {processor.py:186} INFO - Started process (PID=7308) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:48:30.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:48:30.974+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:48:30.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:48:30.976+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:48:30.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:49:01.707+0000] {processor.py:186} INFO - Started process (PID=7413) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:49:01.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:49:01.708+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:49:01.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:49:01.710+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:49:01.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:49:32.476+0000] {processor.py:186} INFO - Started process (PID=7514) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:49:32.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:49:32.477+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:49:32.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:49:32.479+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:49:32.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:50:03.213+0000] {processor.py:186} INFO - Started process (PID=7617) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:50:03.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:50:03.214+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:50:03.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:50:03.214+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:50:03.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:50:33.922+0000] {processor.py:186} INFO - Started process (PID=7716) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:50:33.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:50:33.923+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:50:33.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:50:33.926+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:50:33.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.015 seconds
+[2024-12-03T15:51:04.787+0000] {processor.py:186} INFO - Started process (PID=7839) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:51:04.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:51:04.788+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:51:04.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:51:04.789+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:51:04.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:51:35.456+0000] {processor.py:186} INFO - Started process (PID=7955) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:51:35.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:51:35.457+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:51:35.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:51:35.459+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:51:35.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:52:06.227+0000] {processor.py:186} INFO - Started process (PID=8069) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:52:06.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:52:06.229+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:52:06.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:52:06.231+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:52:06.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:52:37.038+0000] {processor.py:186} INFO - Started process (PID=8190) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:52:37.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:52:37.040+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:52:37.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:52:37.041+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:52:37.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:53:07.900+0000] {processor.py:186} INFO - Started process (PID=8328) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:53:07.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:53:07.901+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:53:07.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:53:07.902+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:53:07.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:53:38.640+0000] {processor.py:186} INFO - Started process (PID=8436) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:53:38.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:53:38.642+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:53:38.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:53:38.645+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:53:38.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:54:09.392+0000] {processor.py:186} INFO - Started process (PID=8547) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:54:09.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:54:09.394+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:54:09.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:54:09.397+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:54:09.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T15:54:40.024+0000] {processor.py:186} INFO - Started process (PID=8648) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:54:40.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:54:40.025+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:54:40.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:54:40.027+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:54:40.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:55:10.680+0000] {processor.py:186} INFO - Started process (PID=8749) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:55:10.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:55:10.682+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:55:10.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:55:10.683+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:55:10.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T15:55:41.349+0000] {processor.py:186} INFO - Started process (PID=8855) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:55:41.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:55:41.350+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:55:41.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:55:41.353+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:55:41.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.015 seconds
+[2024-12-03T15:56:11.920+0000] {processor.py:186} INFO - Started process (PID=8958) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:56:11.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:56:11.921+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:56:11.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:56:11.922+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:56:11.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:56:42.628+0000] {processor.py:186} INFO - Started process (PID=9072) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:56:42.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:56:42.630+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:56:42.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:56:42.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:56:42.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:57:13.356+0000] {processor.py:186} INFO - Started process (PID=9190) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:57:13.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:57:13.357+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:57:13.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:57:13.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:57:13.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T15:57:44.048+0000] {processor.py:186} INFO - Started process (PID=9289) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:57:44.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:57:44.050+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:57:44.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:57:44.052+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:57:44.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:58:14.679+0000] {processor.py:186} INFO - Started process (PID=9390) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:58:14.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:58:14.680+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:58:14.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:58:14.682+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:58:14.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T15:58:45.374+0000] {processor.py:186} INFO - Started process (PID=9493) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:58:45.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:58:45.375+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:58:45.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:58:45.376+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:58:45.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.008 seconds
+[2024-12-03T15:59:15.991+0000] {processor.py:186} INFO - Started process (PID=9592) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:59:15.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:59:15.993+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:59:15.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:59:15.995+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:59:16.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T15:59:46.623+0000] {processor.py:186} INFO - Started process (PID=9695) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:59:46.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T15:59:46.624+0000] {logging_mixin.py:190} INFO - [2024-12-03T15:59:46.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:59:46.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T15:59:46.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:00:17.315+0000] {processor.py:186} INFO - Started process (PID=9795) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:00:17.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:00:17.317+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:00:17.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:00:17.318+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:00:17.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:00:47.970+0000] {processor.py:186} INFO - Started process (PID=9895) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:00:47.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:00:47.971+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:00:47.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:00:47.972+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:00:47.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T16:01:18.632+0000] {processor.py:186} INFO - Started process (PID=9998) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:01:18.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:01:18.633+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:01:18.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:01:18.634+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:01:18.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:01:49.307+0000] {processor.py:186} INFO - Started process (PID=10097) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:01:49.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:01:49.308+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:01:49.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:01:49.311+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:01:49.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:02:19.931+0000] {processor.py:186} INFO - Started process (PID=10198) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:02:19.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:02:19.932+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:02:19.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:02:19.934+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:02:19.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:02:50.748+0000] {processor.py:186} INFO - Started process (PID=10329) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:02:50.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:02:50.749+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:02:50.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:02:50.751+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:02:50.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:03:21.462+0000] {processor.py:186} INFO - Started process (PID=10432) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:03:21.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:03:21.462+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:03:21.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:03:21.464+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:03:21.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:03:52.084+0000] {processor.py:186} INFO - Started process (PID=10533) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:03:52.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:03:52.085+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:03:52.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:03:52.086+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:03:52.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T16:04:22.762+0000] {processor.py:186} INFO - Started process (PID=10634) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:04:22.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:04:22.763+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:04:22.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:04:22.765+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:04:22.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.014 seconds
+[2024-12-03T16:04:53.445+0000] {processor.py:186} INFO - Started process (PID=10732) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:04:53.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:04:53.447+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:04:53.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:04:53.449+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:04:53.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:05:24.215+0000] {processor.py:186} INFO - Started process (PID=10835) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:05:24.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:05:24.218+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:05:24.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:05:24.219+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:05:24.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:05:54.911+0000] {processor.py:186} INFO - Started process (PID=10934) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:05:54.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:05:54.913+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:05:54.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:05:54.914+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:05:54.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:06:25.652+0000] {processor.py:186} INFO - Started process (PID=11036) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:06:25.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:06:25.653+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:06:25.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:06:25.655+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:06:25.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:06:56.371+0000] {processor.py:186} INFO - Started process (PID=11207) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:06:56.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:06:56.374+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:06:56.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:06:56.375+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:06:56.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:07:27.134+0000] {processor.py:186} INFO - Started process (PID=11355) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:07:27.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:07:27.135+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:07:27.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:07:27.136+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:07:27.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T16:07:57.843+0000] {processor.py:186} INFO - Started process (PID=11573) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:07:57.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:07:57.844+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:07:57.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:07:57.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:07:57.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:08:28.552+0000] {processor.py:186} INFO - Started process (PID=11711) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:08:28.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:08:28.554+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:08:28.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:08:28.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:08:28.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:08:59.216+0000] {processor.py:186} INFO - Started process (PID=11814) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:08:59.216+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:08:59.216+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:08:59.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:08:59.217+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:08:59.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T16:09:29.918+0000] {processor.py:186} INFO - Started process (PID=11913) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:09:29.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:09:29.920+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:09:29.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:09:29.922+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:09:29.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.014 seconds
+[2024-12-03T16:10:00.648+0000] {processor.py:186} INFO - Started process (PID=12016) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:10:00.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:10:00.649+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:10:00.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:10:00.651+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:10:00.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.014 seconds
+[2024-12-03T16:10:31.381+0000] {processor.py:186} INFO - Started process (PID=12115) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:10:31.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:10:31.382+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:10:31.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:10:31.384+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:10:31.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:11:02.128+0000] {processor.py:186} INFO - Started process (PID=12218) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:11:02.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:11:02.129+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:11:02.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:11:02.130+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:11:02.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T16:11:32.870+0000] {processor.py:186} INFO - Started process (PID=12316) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:11:32.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:11:32.872+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:11:32.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:11:32.875+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:11:32.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:12:03.529+0000] {processor.py:186} INFO - Started process (PID=12427) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:12:03.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:12:03.530+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:12:03.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:12:03.532+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:12:03.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:12:34.354+0000] {processor.py:186} INFO - Started process (PID=12554) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:12:34.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:12:34.357+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:12:34.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:12:34.358+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:12:34.364+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:13:05.194+0000] {processor.py:186} INFO - Started process (PID=12689) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:13:05.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:13:05.195+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:13:05.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:13:05.196+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:13:05.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:13:35.263+0000] {processor.py:186} INFO - Started process (PID=12825) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:13:35.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:13:35.264+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:13:35.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:13:35.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:13:35.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T16:14:05.998+0000] {processor.py:186} INFO - Started process (PID=12926) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:14:05.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:14:05.999+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:14:05.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:14:06.000+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:14:06.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:14:36.746+0000] {processor.py:186} INFO - Started process (PID=13027) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:14:36.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:14:36.747+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:14:36.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:14:36.748+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:14:36.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:15:07.410+0000] {processor.py:186} INFO - Started process (PID=13128) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:15:07.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:15:07.411+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:15:07.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:15:07.412+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:15:07.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T16:15:38.084+0000] {processor.py:186} INFO - Started process (PID=13229) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:15:38.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:15:38.085+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:15:38.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:15:38.086+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:15:38.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:16:08.817+0000] {processor.py:186} INFO - Started process (PID=13330) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:16:08.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:16:08.818+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:16:08.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:16:08.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:16:08.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:16:39.577+0000] {processor.py:186} INFO - Started process (PID=13431) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:16:39.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:16:39.578+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:16:39.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:16:39.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:16:39.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:17:10.328+0000] {processor.py:186} INFO - Started process (PID=13532) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:17:10.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:17:10.329+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:17:10.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:17:10.330+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:17:10.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:17:41.008+0000] {processor.py:186} INFO - Started process (PID=13633) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:17:41.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:17:41.009+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:17:41.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:17:41.010+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:17:41.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:18:11.826+0000] {processor.py:186} INFO - Started process (PID=13753) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:18:11.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:18:11.827+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:18:11.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:18:11.828+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:18:11.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:18:42.556+0000] {processor.py:186} INFO - Started process (PID=13857) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:18:42.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:18:42.557+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:18:42.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:18:42.558+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:18:42.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:19:13.257+0000] {processor.py:186} INFO - Started process (PID=13963) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:19:13.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:19:13.258+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:19:13.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:19:13.259+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:19:13.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:19:44.035+0000] {processor.py:186} INFO - Started process (PID=14074) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:19:44.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:19:44.036+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:19:44.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:19:44.037+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:19:44.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:20:14.715+0000] {processor.py:186} INFO - Started process (PID=14180) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:20:14.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:20:14.716+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:20:14.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:20:14.718+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:20:14.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:20:45.437+0000] {processor.py:186} INFO - Started process (PID=14281) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:20:45.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:20:45.438+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:20:45.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:20:45.439+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:20:45.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:21:16.113+0000] {processor.py:186} INFO - Started process (PID=14382) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:21:16.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:21:16.114+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:21:16.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:21:16.116+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:21:16.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:21:46.845+0000] {processor.py:186} INFO - Started process (PID=14483) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:21:46.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:21:46.846+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:21:46.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:21:46.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:21:46.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.015 seconds
+[2024-12-03T16:22:17.495+0000] {processor.py:186} INFO - Started process (PID=14584) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:22:17.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:22:17.496+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:22:17.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:22:17.498+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:22:17.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:22:48.146+0000] {processor.py:186} INFO - Started process (PID=14685) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:22:48.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:22:48.147+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:22:48.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:22:48.149+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:22:48.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:23:18.907+0000] {processor.py:186} INFO - Started process (PID=14796) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:23:18.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:23:18.908+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:23:18.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:23:18.909+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:23:18.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T16:23:49.661+0000] {processor.py:186} INFO - Started process (PID=14917) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:23:49.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:23:49.662+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:23:49.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:23:49.663+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:23:49.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:24:20.325+0000] {processor.py:186} INFO - Started process (PID=15022) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:24:20.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:24:20.326+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:24:20.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:24:20.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:24:20.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:24:51.043+0000] {processor.py:186} INFO - Started process (PID=15123) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:24:51.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:24:51.044+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:24:51.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:24:51.045+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:24:51.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:25:21.718+0000] {processor.py:186} INFO - Started process (PID=15224) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:25:21.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:25:21.719+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:25:21.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:25:21.720+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:25:21.726+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:25:52.495+0000] {processor.py:186} INFO - Started process (PID=15339) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:25:52.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:25:52.496+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:25:52.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:25:52.497+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:25:52.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:26:23.303+0000] {processor.py:186} INFO - Started process (PID=15440) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:26:23.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:26:23.304+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:26:23.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:26:23.305+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:26:23.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:26:53.955+0000] {processor.py:186} INFO - Started process (PID=15541) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:26:53.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:26:53.956+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:26:53.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:26:53.957+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:26:53.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T16:27:24.609+0000] {processor.py:186} INFO - Started process (PID=15642) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:27:24.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:27:24.610+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:27:24.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:27:24.611+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:27:24.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:27:55.350+0000] {processor.py:186} INFO - Started process (PID=15743) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:27:55.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:27:55.351+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:27:55.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:27:55.352+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:27:55.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:28:26.208+0000] {processor.py:186} INFO - Started process (PID=15882) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:28:26.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:28:26.211+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:28:26.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:28:26.214+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:28:26.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.019 seconds
+[2024-12-03T16:28:57.006+0000] {processor.py:186} INFO - Started process (PID=16010) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:28:57.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:28:57.007+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:28:57.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:28:57.009+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:28:57.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:29:27.642+0000] {processor.py:186} INFO - Started process (PID=16111) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:29:27.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:29:27.642+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:29:27.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:29:27.643+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:29:27.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.010 seconds
+[2024-12-03T16:29:58.351+0000] {processor.py:186} INFO - Started process (PID=16217) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:29:58.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:29:58.352+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:29:58.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:29:58.353+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:29:58.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.009 seconds
+[2024-12-03T16:30:28.976+0000] {processor.py:186} INFO - Started process (PID=16318) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:30:28.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:30:28.977+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:30:28.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:30:28.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:30:28.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:30:59.646+0000] {processor.py:186} INFO - Started process (PID=16424) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:30:59.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:30:59.647+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:30:59.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:30:59.648+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:30:59.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:31:30.330+0000] {processor.py:186} INFO - Started process (PID=16525) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:31:30.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:31:30.332+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:31:30.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:31:30.333+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:31:30.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:32:01.002+0000] {processor.py:186} INFO - Started process (PID=16625) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:32:01.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:32:01.004+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:32:01.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:32:01.006+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:32:01.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:32:31.663+0000] {processor.py:186} INFO - Started process (PID=16727) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:32:31.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:32:31.664+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:32:31.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:32:31.666+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:32:31.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:33:02.322+0000] {processor.py:186} INFO - Started process (PID=16828) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:33:02.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:33:02.323+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:33:02.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:33:02.324+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:33:02.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:33:33.070+0000] {processor.py:186} INFO - Started process (PID=16929) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:33:33.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:33:33.072+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:33:33.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:33:33.073+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:33:33.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:34:03.690+0000] {processor.py:186} INFO - Started process (PID=17030) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:34:03.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:34:03.691+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:34:03.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:34:03.693+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:34:03.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:34:34.359+0000] {processor.py:186} INFO - Started process (PID=17131) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:34:34.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:34:34.360+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:34:34.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:34:34.361+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:34:34.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.018 seconds
+[2024-12-03T16:35:05.151+0000] {processor.py:186} INFO - Started process (PID=17232) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:35:05.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:35:05.153+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:35:05.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:35:05.154+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:35:05.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:35:35.801+0000] {processor.py:186} INFO - Started process (PID=17333) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:35:35.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:35:35.802+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:35:35.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:35:35.803+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:35:35.810+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:36:06.526+0000] {processor.py:186} INFO - Started process (PID=17440) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:36:06.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:36:06.527+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:36:06.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:36:06.528+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:36:06.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:36:37.201+0000] {processor.py:186} INFO - Started process (PID=17541) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:36:37.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:36:37.202+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:36:37.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:36:37.204+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:36:37.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:37:07.914+0000] {processor.py:186} INFO - Started process (PID=17642) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:37:07.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:37:07.915+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:37:07.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:37:07.916+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:37:07.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:37:38.626+0000] {processor.py:186} INFO - Started process (PID=17743) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:37:38.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:37:38.628+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:37:38.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:37:38.629+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:37:38.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.011 seconds
+[2024-12-03T16:38:09.369+0000] {processor.py:186} INFO - Started process (PID=17844) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:38:09.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:38:09.370+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:38:09.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:38:09.372+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:38:09.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.016 seconds
+[2024-12-03T16:38:40.157+0000] {processor.py:186} INFO - Started process (PID=17955) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:38:40.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:38:40.158+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:38:40.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:38:40.160+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:38:40.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:39:10.912+0000] {processor.py:186} INFO - Started process (PID=18056) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:39:10.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:39:10.913+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:39:10.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:39:10.914+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:39:10.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:39:41.680+0000] {processor.py:186} INFO - Started process (PID=18162) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:39:41.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:39:41.682+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:39:41.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:39:41.683+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:39:41.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:40:12.476+0000] {processor.py:186} INFO - Started process (PID=18268) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:40:12.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:40:12.477+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:40:12.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:40:12.478+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:40:12.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:40:43.111+0000] {processor.py:186} INFO - Started process (PID=18369) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:40:43.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:40:43.113+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:40:43.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:40:43.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:40:43.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:41:13.908+0000] {processor.py:186} INFO - Started process (PID=18490) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:41:13.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:41:13.909+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:41:13.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:41:13.911+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:41:13.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:41:44.612+0000] {processor.py:186} INFO - Started process (PID=18591) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:41:44.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:41:44.613+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:41:44.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:41:44.614+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:41:44.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:42:15.371+0000] {processor.py:186} INFO - Started process (PID=18697) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:42:15.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:42:15.372+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:42:15.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:42:15.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:42:15.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:42:46.080+0000] {processor.py:186} INFO - Started process (PID=18798) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:42:46.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:42:46.082+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:42:46.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:42:46.084+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:42:46.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.016 seconds
+[2024-12-03T16:43:16.893+0000] {processor.py:186} INFO - Started process (PID=18899) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:43:16.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:43:16.894+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:43:16.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:43:16.896+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:43:16.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:43:47.770+0000] {processor.py:186} INFO - Started process (PID=19035) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:43:47.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:43:47.771+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:43:47.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:43:47.774+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:43:47.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.014 seconds
+[2024-12-03T16:44:18.587+0000] {processor.py:186} INFO - Started process (PID=19161) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:44:18.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:44:18.589+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:44:18.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:44:18.590+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:44:18.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:44:49.461+0000] {processor.py:186} INFO - Started process (PID=19274) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:44:49.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:44:49.462+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:44:49.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:44:49.464+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:44:49.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:45:20.283+0000] {processor.py:186} INFO - Started process (PID=19375) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:45:20.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:45:20.284+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:45:20.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:45:20.286+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:45:20.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:45:51.047+0000] {processor.py:186} INFO - Started process (PID=19476) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:45:51.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:45:51.048+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:45:51.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:45:51.049+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:45:51.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:46:21.777+0000] {processor.py:186} INFO - Started process (PID=19577) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:46:21.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:46:21.779+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:46:21.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:46:21.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:46:21.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:46:52.541+0000] {processor.py:186} INFO - Started process (PID=19710) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:46:52.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:46:52.543+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:46:52.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:46:52.545+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:46:52.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:47:23.297+0000] {processor.py:186} INFO - Started process (PID=19811) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:47:23.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:47:23.298+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:47:23.298+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:47:23.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:47:23.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:47:54.059+0000] {processor.py:186} INFO - Started process (PID=19912) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:47:54.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:47:54.060+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:47:54.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:47:54.062+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:47:54.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:48:24.879+0000] {processor.py:186} INFO - Started process (PID=20013) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:48:24.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:48:24.880+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:48:24.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:48:24.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:48:24.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:48:55.660+0000] {processor.py:186} INFO - Started process (PID=20114) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:48:55.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:48:55.661+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:48:55.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:48:55.663+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:48:55.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.015 seconds
+[2024-12-03T16:49:26.395+0000] {processor.py:186} INFO - Started process (PID=20215) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:49:26.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:49:26.396+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:49:26.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:49:26.397+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:49:26.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:49:57.171+0000] {processor.py:186} INFO - Started process (PID=20328) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:49:57.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:49:57.173+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:49:57.172+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:49:57.174+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:49:57.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:50:27.919+0000] {processor.py:186} INFO - Started process (PID=20429) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:50:27.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:50:27.920+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:50:27.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:50:27.922+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:50:27.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.014 seconds
+[2024-12-03T16:50:58.607+0000] {processor.py:186} INFO - Started process (PID=20530) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:50:58.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:50:58.608+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:50:58.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:50:58.609+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:50:58.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:51:29.489+0000] {processor.py:186} INFO - Started process (PID=20631) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:51:29.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:51:29.490+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:51:29.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:51:29.491+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:51:29.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.015 seconds
+[2024-12-03T16:52:00.134+0000] {processor.py:186} INFO - Started process (PID=20731) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:52:00.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:52:00.135+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:52:00.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:52:00.137+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:52:00.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:52:30.918+0000] {processor.py:186} INFO - Started process (PID=20832) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:52:30.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:52:30.919+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:52:30.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:52:30.921+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:52:30.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:53:01.760+0000] {processor.py:186} INFO - Started process (PID=20938) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:53:01.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:53:01.762+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:53:01.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:53:01.763+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:53:01.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.014 seconds
+[2024-12-03T16:53:32.543+0000] {processor.py:186} INFO - Started process (PID=21039) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:53:32.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:53:32.545+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:53:32.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:53:32.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:53:32.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T16:54:03.308+0000] {processor.py:186} INFO - Started process (PID=21140) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:54:03.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:54:03.309+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:54:03.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:54:03.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:54:03.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.012 seconds
+[2024-12-03T16:54:33.961+0000] {processor.py:186} INFO - Started process (PID=21245) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:54:33.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:54:33.963+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:54:33.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:54:33.965+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:54:33.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.017 seconds
+[2024-12-03T16:55:04.831+0000] {processor.py:186} INFO - Started process (PID=21354) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:55:04.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:55:04.833+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:55:04.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:55:04.835+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:55:04.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.018 seconds
+[2024-12-03T16:55:36.538+0000] {processor.py:186} INFO - Started process (PID=21487) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:55:36.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:55:36.542+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:55:36.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:55:36.545+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:55:36.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.025 seconds
+[2024-12-03T16:56:07.355+0000] {processor.py:186} INFO - Started process (PID=21588) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:56:07.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:56:07.357+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:56:07.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:56:07.360+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:56:07.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.020 seconds
+[2024-12-03T16:56:38.136+0000] {processor.py:186} INFO - Started process (PID=21694) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:56:38.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:56:38.138+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:56:38.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:56:38.141+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:56:38.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.021 seconds
+[2024-12-03T16:57:09.027+0000] {processor.py:186} INFO - Started process (PID=21825) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:57:09.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:57:09.030+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:57:09.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:57:09.033+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:57:09.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.022 seconds
+[2024-12-03T16:57:39.969+0000] {processor.py:186} INFO - Started process (PID=21951) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:57:39.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:57:39.971+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:57:39.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:57:39.974+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:57:39.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.019 seconds
+[2024-12-03T16:58:10.592+0000] {processor.py:186} INFO - Started process (PID=22060) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:58:10.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:58:10.594+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:58:10.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:58:10.596+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:58:10.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.018 seconds
+[2024-12-03T16:58:41.516+0000] {processor.py:186} INFO - Started process (PID=22178) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:58:41.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:58:41.518+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:58:41.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:58:41.521+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:58:41.531+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.020 seconds
+[2024-12-03T16:59:12.371+0000] {processor.py:186} INFO - Started process (PID=22294) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:59:12.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:59:12.372+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:59:12.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:59:12.375+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:59:12.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.021 seconds
+[2024-12-03T16:59:43.262+0000] {processor.py:186} INFO - Started process (PID=22420) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:59:43.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T16:59:43.264+0000] {logging_mixin.py:190} INFO - [2024-12-03T16:59:43.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:59:43.266+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T16:59:43.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.024 seconds
+[2024-12-03T17:00:14.025+0000] {processor.py:186} INFO - Started process (PID=22521) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:00:14.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:00:14.028+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:00:14.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:00:14.032+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:00:14.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.025 seconds
+[2024-12-03T17:00:44.775+0000] {processor.py:186} INFO - Started process (PID=22622) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:00:44.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:00:44.777+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:00:44.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:00:44.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:00:44.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.021 seconds
+[2024-12-03T17:01:15.521+0000] {processor.py:186} INFO - Started process (PID=22763) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:01:15.523+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:01:15.523+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:01:15.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:01:15.526+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:01:15.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.016 seconds
+[2024-12-03T17:01:46.304+0000] {processor.py:186} INFO - Started process (PID=22864) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:01:46.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:01:46.305+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:01:46.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:01:46.307+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:01:46.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.017 seconds
+[2024-12-03T17:02:17.142+0000] {processor.py:186} INFO - Started process (PID=22965) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:02:17.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:02:17.144+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:02:17.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:02:17.147+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:02:17.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.013 seconds
+[2024-12-03T17:02:48.010+0000] {processor.py:186} INFO - Started process (PID=23091) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:02:48.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:02:48.012+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:02:48.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:02:48.015+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:02:48.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.017 seconds
+[2024-12-03T17:03:18.795+0000] {processor.py:186} INFO - Started process (PID=23192) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:03:18.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:03:18.797+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:03:18.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:03:18.800+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:03:18.810+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.021 seconds
+[2024-12-03T17:03:49.664+0000] {processor.py:186} INFO - Started process (PID=23303) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:03:49.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:03:49.668+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:03:49.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:03:49.670+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:03:49.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.022 seconds
+[2024-12-03T17:04:20.503+0000] {processor.py:186} INFO - Started process (PID=23444) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:04:20.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:04:20.507+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:04:20.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:04:20.511+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:04:20.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.029 seconds
+[2024-12-03T17:04:51.327+0000] {processor.py:186} INFO - Started process (PID=23545) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:04:51.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:04:51.329+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:04:51.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:04:51.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:04:51.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.020 seconds
+[2024-12-03T17:05:22.063+0000] {processor.py:186} INFO - Started process (PID=23646) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:05:22.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:05:22.065+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:05:22.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:05:22.069+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:05:22.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.020 seconds
+[2024-12-03T17:05:52.905+0000] {processor.py:186} INFO - Started process (PID=23757) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:05:52.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:05:52.910+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:05:52.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:05:52.915+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:05:52.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.062 seconds
+[2024-12-03T17:06:23.688+0000] {processor.py:186} INFO - Started process (PID=23858) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:06:23.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:06:23.690+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:06:23.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:06:23.693+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:06:23.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.022 seconds
+[2024-12-03T17:06:54.416+0000] {processor.py:186} INFO - Started process (PID=23959) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:06:54.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:06:54.419+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:06:54.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:06:54.422+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:06:54.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.024 seconds
+[2024-12-03T17:07:25.190+0000] {processor.py:186} INFO - Started process (PID=24060) to work on /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:07:25.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/script/example/dag_with_python_dependencies.py for tasks to queue
+[2024-12-03T17:07:25.191+0000] {logging_mixin.py:190} INFO - [2024-12-03T17:07:25.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:07:25.195+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/script/example/dag_with_python_dependencies.py
+[2024-12-03T17:07:25.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/script/example/dag_with_python_dependencies.py took 0.021 seconds
