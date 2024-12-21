@@ -5,3 +5,5 @@ spark/
 warehouse/
 *.log
 .DS_store
+__pycache__/
+example/__pycache__/
