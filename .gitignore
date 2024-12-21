@@ -7,3 +7,4 @@ warehouse/
 .DS_store
 __pycache__/
 ./example/__pycache__/
+./example/
