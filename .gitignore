@@ -8,3 +8,4 @@ warehouse/
 __pycache__/
 ./example/__pycache__/
 ./example/
+images/
