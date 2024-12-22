@@ -163,57 +163,49 @@ class Framework(ModuleType):
             hook = PostgresHook(postgres_conn_id='postgres_localhost')
             conn = hook.get_conn()
             return conn
-
-        @classmethod
-        def CheckRunProcess(self, process_name, calculate_date):
-            conn = Framework.Utility.GetConnection()
-            cusor = conn.cursor()            
-            cusor.execute(f"""select * 
-                          from cntl_af.cntl_cfg_log
-                          where start_dt = date('{calculate_date}') and prcs_nm = '{process_name}'
-                        """)
-            if len(cusor.fetchall()) == 0:
-                 return False
-            
-            return True
         
         @classmethod
-        def InsertLogProcess(self, process_name, start_dt, end_dt, status, message='', source_row=0, target_row=0):
+        def InsertLogProcess(self, process_name, data_dt, start_dt, end_dt, status, message='', source_row=0, target_row=0):
             conn = Framework.Utility.GetConnection()
             cusor = conn.cursor() 
-            query = """
-                    INSERT INTO cntl_af.cntl_cfg_log
-                    (prcs_nm, start_dt, end_dt, status, message, source_row, target_row, upt_dt)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP);
+            check = """
+                    select * from cntl_af.cntl_cfg_log
+                    where prcs_nm = %s and data_dt = %s 
                     """
-            values = (process_name, start_dt, end_dt, status, message, source_row, target_row)
-            cusor.execute(query, values)
-            conn.commit() 
+            values1 = (process_name, data_dt)
+            cusor.execute(check, values1)
+            if len(cusor.fetchall()) == 0:
+                insert = """
+                        INSERT INTO cntl_af.cntl_cfg_log
+                        (prcs_nm, data_dt, start_dt, end_dt, status, message, source_row, target_row)
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
+                        """
+                values2 = (process_name, data_dt, start_dt, end_dt, status, message, source_row, target_row)
+                cusor.execute(insert, values2)
+                conn.commit() 
 
 
-        def UpdateLogProcess(process_name, start_dt, end_dt, status, message='', source_row=0, target_row=0):
+        def UpdateLogProcess(process_name, data_dt, start_dt, end_dt, status, message='', source_row=0, target_row=0):
             conn = Framework.Utility.GetConnection()
             cusor = conn.cursor() 
             query = """
                     UPDATE cntl_af.cntl_cfg_log
-                    SET end_dt = %s, status = %s, message = %s
-                    where prcs_nm = %s and start_dt = %s
+                    SET start_dt = %s, end_dt = %s, status = %s, message = %s, source_row=%s, target_row=%s
+                    where prcs_nm = %s and data_dt = %s
                     """
-            values = (end_dt, status, message, process_name, start_dt)
+            values = (start_dt, end_dt, status, message, source_row, target_row, process_name, data_dt)
             cusor.execute(query, values)
             conn.commit() 
 
 
         @classmethod
-        def GetContainerId(self):
-            try:
-                container_id = subprocess.check_output(
-                    "docker ps -q --filter 'name=spark-iceberg'", 
-                    shell=True
-                ).decode('utf-8').strip()  
-                return container_id
-            except subprocess.CalledProcessError as e:
-                raise(f"Error getting container ID: {e}")
+        def GetContainerId(self): 
+            container_id = subprocess.check_output(
+                "docker ps -q --filter 'name=spark-iceberg'", 
+                shell=True
+            ).decode('utf-8').strip()  
+            return container_id
+ 
             
 
         
