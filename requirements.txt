@@ -2,3 +2,6 @@ findspark
 pyspark
 boto3
 papermill
+pyarrow
+pandas
+pyiceberg
