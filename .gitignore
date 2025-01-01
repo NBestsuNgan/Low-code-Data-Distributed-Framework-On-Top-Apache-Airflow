@@ -8,3 +8,5 @@ warehouse/
 __pycache__/
 ./example/__pycache__/
 ./example/
+notebooks/.Trash-0/
+*.ipynb_checkpoints/

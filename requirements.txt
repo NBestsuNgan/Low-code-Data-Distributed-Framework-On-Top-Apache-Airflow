@@ -1,5 +1,5 @@
-findspark
 pyspark
+findspark
 boto3
 papermill
 pyarrow
