@@ -205,12 +205,9 @@ services:
     ports:
       - "1521:1521"
     restart: always
-    healthcheck:
-      test: ["CMD", "nc", "-z", "localhost", "1521"]
-      interval: 30s
-      retries: 15
-      start_period: 60s
-      timeout: 15m
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+
 
 networks:
   iceberg_net:

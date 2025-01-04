@@ -5,3 +5,4 @@ papermill
 pyarrow
 pandas
 pyiceberg
+oracledb
