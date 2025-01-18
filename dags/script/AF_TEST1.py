@@ -2,6 +2,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
+from airflow.sensors.external_task import ExternalTaskSensor
 
 from datetime import datetime, timedelta
 from framework.dwh import Framework

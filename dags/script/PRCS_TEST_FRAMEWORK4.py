@@ -8,7 +8,7 @@ from airflow.operators.bash import BashOperator
 import subprocess
 from airflow.operators.empty import EmptyOperator
 
-controller = Framework.get_controller("PRCS_TEST_FRAMEWORK1", 'prcs_nm')
+controller = Framework.get_controller("PRCS_TEST_FRAMEWORK4", 'prcs_nm')
 
 default_args = {
     'owner': f"{controller.owner}-process",
@@ -17,7 +17,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='PRCS_TEST_FRAMEWORK1',
+    dag_id='PRCS_TEST_FRAMEWORK4',
     default_args=default_args,
     start_date = controller.calc_dt,
     schedule_interval=None,
