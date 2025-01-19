@@ -76,6 +76,7 @@ observabiliy, loging, tracking and data organization
 
 #### Data tier1
 ![framework_tier1](resource/iamges/framework_tier1.png "Airflow UI")
+
 &nbsp; tier1 of data management is for make procedure to control all process that coming to this loop, generally tier1 is defied as transform any 
 data format from various source into staging layer which format is structure format
 
@@ -83,11 +84,13 @@ data format from various source into staging layer which format is structure for
 
 #### Data tier2
 ![framework_tier2](resource/iamges/framework_tier2.png "Airflow UI")
+
 &nbsp; tier2 of data management is to transform staging layer into up tier like Dimention or Fact table, typically is to direct load data and table format from
 staging layer into Dimention or Fact table directly but we can do some transformation if need.
 
 #### Data tier3
 ![framework_tier3](resource/iamges/framework_tier3.png "Airflow UI")
+
 &nbsp; tier3 of data management is to do some aggregation from Dimention and Fact table, you do some thing like sum, group by,
 join and much more.
 
