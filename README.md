@@ -20,7 +20,7 @@
 &nbsp; Main benefit of data processing framework is centalize group of workflow together and can manage all of its in one place also scability, observabiliy etc.
 
 #### Why on top apache-airflow?
-&nbsp; Even I said that Low-code but it not really no code, every task still need to process by code somehow. Typically the apache-airflow is the code base orchrestrator which you need to re-write|copy your code every time that you want to create new task, In this project I will apply concept of control table to our data processing framework. the main benefit that we will get from apply this concept is scalability make you work replicate task which do the same step but different parameter easier and faster.
+&nbsp; Even I said that Low-code but it not really no code, every task still need to process by code somehow. Typically the apache-airflow is the code base orchrestrator which you need to re-write|copy your code every time that you want to create new task, In this project I will apply concept of control table to our data processing framework. the main benefit that we will get from apply this concept is scalability make you can replicate task which do the same step but different parameter easier and faster.
 
 # Services Use
 ![services_use](resource/iamges/services_use.png "Services Use") 
@@ -36,16 +36,23 @@
 
 &nbsp; Control tables have 6 control table which server different purpose
 - 1.CNTL_AF.CNTL_CFG_STREM
+   ![CNTL_CFG_STREM](resource/iamges/CNTL_CFG_STREM.png "CNTL_CFG_STREM")
    - used for register strem name of workflow, by each workflow can have many process group.
 - 2.CNTL_AF.CNTL_CFG_PRCS_GRP
+   ![CNTL_CFG_PRCS_GRP](resource/iamges/CNTL_CFG_PRCS_GRP.png "CNTL_CFG_PRCS_GRP")
    - used for register process group in a stream workflow, by each process group can have many process.
 - 3.CNTL_AF.CNTL_CFG_PRCS
+   ![CNTL_CFG_PRCS](resource/iamges/CNTL_CFG_PRCS1.png "CNTL_CFG_PRCS")
+   ![CNTL_CFG_PRCS](resource/iamges/CNTL_CFG_PRCS2.png "CNTL_CFG_PRCS")
    - used for register process, by each process can be store in many process group
 - 4.CNTL_AF.CNTL_CFG_PRCS_DEPN
+   ![CNTL_CFG_PRCS_DEPN](resource/iamges/CNTL_CFG_PRCS_DEPN.png "CNTL_CFG_PRCS_DEPN")
    - used for register process dependency, by each process can have many depend process but cannot depend itself.
 - 5.CNTL_AF.CNTL_CFG_SCHEDULE
+   ![CNTL_CFG_SCHEDULE](resource/iamges/CNTL_CFG_SCHEDULE.png "CNTL_CFG_SCHEDULE")
    - used for register workflow schedule time.
 - 6.CNTL_AF.CNTL_CFG_LOG
+   ![CNTL_CFG_LOG](resource/iamges/CNTL_CFG_LOG.png "CNTL_CFG_LOG")
    - used for logging process status like sucess or error inclusive with message.
 
 ### Orchestrator 
@@ -53,9 +60,15 @@
 
 &nbsp; Orchestrator(apache-airflow) is directly associate with the control table by pulling config data from control table then dynamically generate task that associate with config in control table order by process group/process task priority as shown in picture below
 
-##### Overall Dag and Process Dag
-![airflow_ui](resource/iamges/airflow_ui.png "Airflow UI")
-![airflow_ui_prcs_2](resource/iamges/airflow_ui_prcs_2.png "Airflow UI Process")
+##### Stream Dag 
+![stream_dag](resource/iamges/stream_dag.png "stream_dag")
+
+&nbsp; In stream dag we will divide process based on it process group and process priority 
+
+##### Process Dag
+![process_dag2](resource/iamges/process_dag2.png "process_dag2")
+
+&nbsp; In process will have two major task which is trigger it dependency and execute notebook from notebook path configuration
 
 ### Processing & Clustering and Data lakehouse & Data warehouse 
 #### Datalakehouse and warehouse architecture
@@ -107,13 +120,15 @@ join and much more.
       
    ***Note: you need to wait for few minute(up to 5 minutes for CDB mode and 8 minutes for PDB mode) to let the oracle finished it initialization and leave restrict mode, then you will fully connect to the database***
 
--  Dockerfile setup for spark-iceberg container
-   -  ```docker build -t tabulario/spark-iceberg:latest . ```
-   -  this container will act like processing and clustering unit, you can append more python module via add it into **requirements.txt** after added you need to re-build the image again.
-
 -  Download postgres database
    -  you need to install database for using postgres(same as oracle) https://www.postgresql.org/download/ 
    -  after installed the image in docker compose file will do it job.
+
+-  Dockerfile setup for spark-iceberg image
+   -  ```docker build -t tabulario/spark-iceberg:latest . ```
+   -  this container will act like processing and clustering unit, you can append more python module via add it into **requirements.txt** after added you need to re-build the image again.
+
+
 
 # How to start it? 
 -  after the setup spark-iceberg image and oracle image already, you can simply run ```docker compose up -d ``` to start all container, the left image will automatically download to your computer.

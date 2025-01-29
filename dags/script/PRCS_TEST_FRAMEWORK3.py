@@ -35,7 +35,6 @@ with DAG(
                     trigger_task = TriggerDagRunOperator(
                         task_id=f'trigger_dependency_{controller.dpnd_prcs_nm[dep_dag]}',
                         trigger_dag_id=controller.dpnd_prcs_nm[dep_dag],
-                        conf={"message": "hi there3"},
                         dag=dag,  # Associate with the DAG
                     )
                     trigger_tasks.append(trigger_task)
